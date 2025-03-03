@@ -12,7 +12,14 @@ public class Roomgen : MonoBehaviour
     void Start()
     {
         GameObject room = Instantiate(firstRoom, new Vector3(0, 0, 0), Quaternion.identity);
-        room.GetComponent<Room>().SpawnNext();
+        
+        for(int i = 0; i < 10; i++)
+        {
+            GameObject nextRoom = room.GetComponent<Room>().nextRoom();
+            Vector3 nextRoomSpawn = room.GetComponent<Room>().nextRoomSpawn.transform.position;
+
+            room = Instantiate(nextRoom, nextRoomSpawn, Quaternion.identity);
+        }
     }
 
     // Update is called once per frame
