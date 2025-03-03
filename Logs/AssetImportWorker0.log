@@ -1,0 +1,3277 @@
+Unity Editor version:    6000.0.40f1 (157d81624ddf)
+Branch:                  6000.0/staging
+Build type:              Release
+Batch mode:              YES
+System name:             Linux
+Distro version:          #56-Ubuntu SMP PREEMPT_DYNAMIC Sat Feb  8 00:37:57 UTC 2025
+Kernel version:          6.8.0-54-generic
+Architecture:            x86_64
+Available memory:        31723 MB
+Using pre-set license
+Pro License: YES
+The selected window backend is (null) 
+Desktop is 1920 x 1080 @ 60 Hz
+Initialize udev device monitor.
+
+COMMAND LINE ARGUMENTS:
+Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/home/kn/UnityGames/RandomPuzzles
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+35091
+-job-worker-count
+3
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: /home/kn/UnityGames/RandomPuzzles
+
+(Unity:6733): Gtk-CRITICAL **: 14:42:17.574: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
+
+(Unity:6733): Gtk-CRITICAL **: 14:42:17.575: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
+/home/kn/UnityGames/RandomPuzzles
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [132861651465536]  Target information:
+
+Player connection [132861651465536]  * "[IP] 192.168.226.181 [Port] 0 [Flags] 2 [Guid] 3672475897 [EditorId] 3672475897 [Version] 1048832 [Id] LinuxEditor(16,192.168.226.181) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [132861651465536]  * "[IP] 192.168.122.1 [Port] 0 [Flags] 2 [Guid] 3672475897 [EditorId] 3672475897 [Version] 1048832 [Id] LinuxEditor(16,192.168.226.181) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [132861651465536]  * "[IP] 172.25.0.1 [Port] 0 [Flags] 2 [Guid] 3672475897 [EditorId] 3672475897 [Version] 1048832 [Id] LinuxEditor(16,192.168.226.181) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [132861651465536]  * "[IP] 172.17.0.1 [Port] 0 [Flags] 2 [Guid] 3672475897 [EditorId] 3672475897 [Version] 1048832 [Id] LinuxEditor(16,192.168.226.181) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [132861651465536] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [132861651465536] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Unable to load player prefs
+Refreshing native plugins compatible for Editor in 1,16 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Initialize engine version: 6000.0.40f1 (157d81624ddf)
+[Subsystems] Discovering subsystems at path /home/kn/Unity/Hub/Editor/6000.0.40f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /home/kn/UnityGames/RandomPuzzles/Assets
+kGfxThreadingModeNonThreaded is not supported on OpenGL Core. Reverting to kGfxThreadingModeDirect instead.
+GfxDevice: creating device client; kGfxThreadingModeDirect
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+Renderer: Mesa Intel(R) UHD Graphics (CML GT2)
+Vendor:   Intel
+Version:  4.6 (Core Profile) Mesa 24.2.8-1ubuntu1~24.04.1
+GLES:     0
+ GL_3DFX_texture_compression_FXT1 GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB
+_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_po
+int_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier G
+L_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2
+_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_texture_float GL_EXT_EGL_image_storage GL_EXT_EGL_image_storage_compression GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_framebuffer_fetch GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_t
+exture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_INTEL_conservative_rasterization GL_INTEL_performance_query GL_INTEL_shader_atomic_float_minmax GL_INTEL_shader_integer_functions2 GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_const_bandwidth GL_MESA_texture_signed_rgba GL_NV_alpha_to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_fragment_shader_interlo
+ck GL_NV_packed_depth_stencil GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle -1130316560
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Initialize mono
+Mono path[0] = '/home/kn/Unity/Hub/Editor/6000.0.40f1/Editor/Data/Managed'
+Mono path[1] = '/home/kn/Unity/Hub/Editor/6000.0.40f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
+Mono config path = '/home/kn/Unity/Hub/Editor/6000.0.40f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56733
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /home/kn/Unity/Hub/Editor/6000.0.40f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0,003594 seconds.
+- Loaded All Assemblies, in  0,671 seconds
+Native extension for LinuxStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0,812 seconds
+Domain Reload Profiling: 1483ms
+	BeginReloadAssembly (151ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (81ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (117ms)
+	LoadAllAssembliesAndSetupDomain (302ms)
+		LoadAssemblies (150ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (297ms)
+			TypeCache.Refresh (296ms)
+				TypeCache.ScanAssembly (272ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (813ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (706ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (45ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (129ms)
+			ProcessInitializeOnLoadAttributes (328ms)
+			ProcessInitializeOnLoadMethodAttributes (192ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1,547 seconds
+Refreshing native plugins compatible for Editor in 0,91 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1,464 seconds
+Domain Reload Profiling: 3008ms
+	BeginReloadAssembly (325ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (76ms)
+	RebuildCommonClasses (80ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (88ms)
+	LoadAllAssembliesAndSetupDomain (1031ms)
+		LoadAssemblies (532ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (641ms)
+			TypeCache.Refresh (492ms)
+				TypeCache.ScanAssembly (452ms)
+			BuildScriptInfoCaches (121ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (1465ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1182ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (227ms)
+			ProcessInitializeOnLoadAttributes (725ms)
+			ProcessInitializeOnLoadMethodAttributes (210ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+AutoLocale: current locale expects 'C' but got 'bg_BG.UTF-8'Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.26 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 206 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6570 unused Assets / (8.0 MB). Loaded Objects now: 7232.
+Memory consumption went from 159.4 MB to 151.4 MB.
+Total: 23.978665 ms (FindLiveObjects: 1.119202 ms CreateObjectMapping: 2.013879 ms MarkObjects: 10.903983 ms  DeleteObjects: 9.939587 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 188.123796 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  artifactKey: Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1526cf67c1d1aaa9a72597cdbc7bb0b0') in 0.051186042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00c025d2039ced57596f58dea75cb28a') in 0.00112308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/DefaultVolumeProfile.asset
+  artifactKey: Guid(3f9215ea0144899419cfbc0957140d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DefaultVolumeProfile.asset using Guid(3f9215ea0144899419cfbc0957140d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e3ee85287093c2e01e2184a29fd3edf') in 0.001184797 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 150.152100 seconds.
+  path: Assets/Art/Tilemap/tilemap.png
+  artifactKey: Guid(206d14879b80708e095ec750131e0c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilemap/tilemap.png using Guid(206d14879b80708e095ec750131e0c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33fbc892234611f2b96eeb13886340be') in 0.095852899 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.087548 seconds.
+  path: Assets/Art/Tilemap/tilemap.png
+  artifactKey: Guid(206d14879b80708e095ec750131e0c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilemap/tilemap.png using Guid(206d14879b80708e095ec750131e0c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32ab740bed4a76a7f91ff5d3beb3b88b') in 0.006775209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.750738 seconds.
+  path: Assets/Art/Tilemap/tilemap.png
+  artifactKey: Guid(206d14879b80708e095ec750131e0c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilemap/tilemap.png using Guid(206d14879b80708e095ec750131e0c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe82721e6db38f29de3f03454a757de5') in 0.010961462 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Prepare
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6558 unused Assets / (6.0 MB). Loaded Objects now: 7245.
+Memory consumption went from 133.7 MB to 127.8 MB.
+Total: 11.223119 ms (FindLiveObjects: 0.746604 ms CreateObjectMapping: 1.247573 ms MarkObjects: 6.043566 ms  DeleteObjects: 3.184413 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 560.209667 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c391582d739b6e62a5220f35cbb167ac') in 0.004581427 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.736 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.942 seconds
+Domain Reload Profiling: 1681ms
+	BeginReloadAssembly (203ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (71ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (451ms)
+		LoadAssemblies (298ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (223ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (198ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (944ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (708ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (139ms)
+			ProcessInitializeOnLoadAttributes (492ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6569 unused Assets / (6.8 MB). Loaded Objects now: 7247.
+Memory consumption went from 136.7 MB to 129.9 MB.
+Total: 11.966014 ms (FindLiveObjects: 0.892029 ms CreateObjectMapping: 1.390774 ms MarkObjects: 5.636614 ms  DeleteObjects: 4.045672 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.604979 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(989ca6ef82a34abf2a8979f0818a72a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(989ca6ef82a34abf2a8979f0818a72a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ecfc54b343d760acf8004b3179d3a37') in 0.00420247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6558 unused Assets / (6.1 MB). Loaded Objects now: 7247.
+Memory consumption went from 136.9 MB to 130.8 MB.
+Total: 13.311082 ms (FindLiveObjects: 0.815257 ms CreateObjectMapping: 1.440153 ms MarkObjects: 6.931140 ms  DeleteObjects: 4.123249 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.725 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.958 seconds
+Domain Reload Profiling: 1685ms
+	BeginReloadAssembly (170ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (472ms)
+		LoadAssemblies (286ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (239ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (213ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (959ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (692ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (149ms)
+			ProcessInitializeOnLoadAttributes (451ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6569 unused Assets / (6.9 MB). Loaded Objects now: 7249.
+Memory consumption went from 136.7 MB to 129.8 MB.
+Total: 11.277930 ms (FindLiveObjects: 0.729354 ms CreateObjectMapping: 1.157918 ms MarkObjects: 5.744629 ms  DeleteObjects: 3.645055 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 17.519996 seconds.
+  path: Assets/Scripts/Player.cs
+  artifactKey: Guid(d68758013c7e05e20998d55849c2efce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.cs using Guid(d68758013c7e05e20998d55849c2efce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79b7bfcf88a70fc0a331f2ee21c360bf') in 0.002806651 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.766 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.852 seconds
+Domain Reload Profiling: 1619ms
+	BeginReloadAssembly (195ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (22ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (70ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (487ms)
+		LoadAssemblies (308ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (238ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (211ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (852ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (616ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (149ms)
+			ProcessInitializeOnLoadAttributes (383ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6569 unused Assets / (6.9 MB). Loaded Objects now: 7251.
+Memory consumption went from 136.7 MB to 129.8 MB.
+Total: 11.830285 ms (FindLiveObjects: 0.880434 ms CreateObjectMapping: 1.208377 ms MarkObjects: 5.904712 ms  DeleteObjects: 3.835570 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 144.689253 seconds.
+  path: Assets/Scripts/Player.cs
+  artifactKey: Guid(d68758013c7e05e20998d55849c2efce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.cs using Guid(d68758013c7e05e20998d55849c2efce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '524c20a9b35ba5b699001a94839ab8f1') in 0.00409004 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.770 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.945 seconds
+Domain Reload Profiling: 1716ms
+	BeginReloadAssembly (178ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (503ms)
+		LoadAssemblies (323ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (235ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (211ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (945ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (707ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (146ms)
+			ProcessInitializeOnLoadAttributes (456ms)
+			ProcessInitializeOnLoadMethodAttributes (91ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6569 unused Assets / (6.9 MB). Loaded Objects now: 7253.
+Memory consumption went from 136.8 MB to 129.8 MB.
+Total: 14.999521 ms (FindLiveObjects: 0.794068 ms CreateObjectMapping: 1.247741 ms MarkObjects: 8.716291 ms  DeleteObjects: 4.239540 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.787 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.915 seconds
+Domain Reload Profiling: 1704ms
+	BeginReloadAssembly (209ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (483ms)
+		LoadAssemblies (322ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (237ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (212ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (916ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (675ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (125ms)
+			ProcessInitializeOnLoadAttributes (444ms)
+			ProcessInitializeOnLoadMethodAttributes (94ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6569 unused Assets / (8.3 MB). Loaded Objects now: 7255.
+Memory consumption went from 136.7 MB to 128.4 MB.
+Total: 16.420523 ms (FindLiveObjects: 0.868111 ms CreateObjectMapping: 1.308313 ms MarkObjects: 6.603952 ms  DeleteObjects: 7.638944 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.771 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.923 seconds
+Domain Reload Profiling: 1696ms
+	BeginReloadAssembly (203ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (77ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (483ms)
+		LoadAssemblies (306ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (237ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (214ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (924ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (687ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (160ms)
+			ProcessInitializeOnLoadAttributes (420ms)
+			ProcessInitializeOnLoadMethodAttributes (93ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6569 unused Assets / (6.8 MB). Loaded Objects now: 7257.
+Memory consumption went from 136.8 MB to 130.0 MB.
+Total: 13.751478 ms (FindLiveObjects: 0.827490 ms CreateObjectMapping: 1.294746 ms MarkObjects: 7.916029 ms  DeleteObjects: 3.712125 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.766 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.911 seconds
+Domain Reload Profiling: 1679ms
+	BeginReloadAssembly (202ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (74ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (478ms)
+		LoadAssemblies (304ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (238ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (213ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (911ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (671ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (126ms)
+			ProcessInitializeOnLoadAttributes (445ms)
+			ProcessInitializeOnLoadMethodAttributes (85ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 1.13 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6569 unused Assets / (6.8 MB). Loaded Objects now: 7259.
+Memory consumption went from 136.8 MB to 129.9 MB.
+Total: 13.004128 ms (FindLiveObjects: 1.669319 ms CreateObjectMapping: 1.402676 ms MarkObjects: 5.922629 ms  DeleteObjects: 4.007552 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.778 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.919 seconds
+Domain Reload Profiling: 1699ms
+	BeginReloadAssembly (217ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (26ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (76ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (474ms)
+		LoadAssemblies (288ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (242ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (218ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (920ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (681ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (139ms)
+			ProcessInitializeOnLoadAttributes (430ms)
+			ProcessInitializeOnLoadMethodAttributes (100ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6569 unused Assets / (7.1 MB). Loaded Objects now: 7261.
+Memory consumption went from 136.8 MB to 129.7 MB.
+Total: 15.505789 ms (FindLiveObjects: 0.802756 ms CreateObjectMapping: 1.271014 ms MarkObjects: 6.664545 ms  DeleteObjects: 6.766337 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.772 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.955 seconds
+Domain Reload Profiling: 1728ms
+	BeginReloadAssembly (192ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (495ms)
+		LoadAssemblies (303ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (248ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (224ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (955ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (707ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (158ms)
+			ProcessInitializeOnLoadAttributes (444ms)
+			ProcessInitializeOnLoadMethodAttributes (92ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 1.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6569 unused Assets / (7.4 MB). Loaded Objects now: 7263.
+Memory consumption went from 136.8 MB to 129.3 MB.
+Total: 13.918727 ms (FindLiveObjects: 0.816453 ms CreateObjectMapping: 1.305065 ms MarkObjects: 6.056585 ms  DeleteObjects: 5.739086 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 529.693443 seconds.
+  path: Assets/Rooms
+  artifactKey: Guid(995bb62b4e8493d1094837d473a46be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms using Guid(995bb62b4e8493d1094837d473a46be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e07b1d4bb21e83b04dffab8007b2adb9') in 0.0073211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.261790 seconds.
+  path: Assets/Rooms/FirstRoom.prefab
+  artifactKey: Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/FirstRoom.prefab using Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '363ae5d884e84abc10e99a501ac11a3c') in 0.650332257 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Prepare
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6559 unused Assets / (6.1 MB). Loaded Objects now: 7392.
+Memory consumption went from 142.8 MB to 136.7 MB.
+Total: 14.079637 ms (FindLiveObjects: 0.812667 ms CreateObjectMapping: 1.315845 ms MarkObjects: 8.275591 ms  DeleteObjects: 3.674229 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.788 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.835 seconds
+Domain Reload Profiling: 1625ms
+	BeginReloadAssembly (227ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (35ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (87ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (469ms)
+		LoadAssemblies (289ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (238ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (213ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (836ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (596ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (126ms)
+			ProcessInitializeOnLoadAttributes (384ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6570 unused Assets / (6.9 MB). Loaded Objects now: 7294.
+Memory consumption went from 139.4 MB to 132.5 MB.
+Total: 12.039067 ms (FindLiveObjects: 0.759650 ms CreateObjectMapping: 1.204740 ms MarkObjects: 5.965768 ms  DeleteObjects: 4.107764 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6559 unused Assets / (7.8 MB). Loaded Objects now: 7294.
+Memory consumption went from 139.4 MB to 131.6 MB.
+Total: 15.046463 ms (FindLiveObjects: 0.808757 ms CreateObjectMapping: 1.476927 ms MarkObjects: 7.272689 ms  DeleteObjects: 5.486943 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.893 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.079 seconds
+Domain Reload Profiling: 1974ms
+	BeginReloadAssembly (184ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (623ms)
+		LoadAssemblies (377ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (299ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (263ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1080ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (774ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (193ms)
+			ProcessInitializeOnLoadAttributes (480ms)
+			ProcessInitializeOnLoadMethodAttributes (84ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6570 unused Assets / (6.0 MB). Loaded Objects now: 7296.
+Memory consumption went from 139.3 MB to 133.3 MB.
+Total: 11.011867 ms (FindLiveObjects: 0.974895 ms CreateObjectMapping: 1.274837 ms MarkObjects: 5.491594 ms  DeleteObjects: 3.269687 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.745 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.953 seconds
+Domain Reload Profiling: 1699ms
+	BeginReloadAssembly (195ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (78ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (462ms)
+		LoadAssemblies (276ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (241ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (214ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (954ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (709ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (152ms)
+			ProcessInitializeOnLoadAttributes (447ms)
+			ProcessInitializeOnLoadMethodAttributes (94ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6570 unused Assets / (7.2 MB). Loaded Objects now: 7298.
+Memory consumption went from 139.3 MB to 132.1 MB.
+Total: 13.025225 ms (FindLiveObjects: 1.032550 ms CreateObjectMapping: 1.377379 ms MarkObjects: 6.329282 ms  DeleteObjects: 4.284926 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.766 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.875 seconds
+Domain Reload Profiling: 1643ms
+	BeginReloadAssembly (223ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (28ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (80ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (459ms)
+		LoadAssemblies (276ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (239ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (211ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (875ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (632ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (150ms)
+			ProcessInitializeOnLoadAttributes (398ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6570 unused Assets / (6.8 MB). Loaded Objects now: 7300.
+Memory consumption went from 139.3 MB to 132.4 MB.
+Total: 12.148753 ms (FindLiveObjects: 0.755954 ms CreateObjectMapping: 1.278044 ms MarkObjects: 6.401724 ms  DeleteObjects: 3.711909 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.766 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.991 seconds
+Domain Reload Profiling: 1760ms
+	BeginReloadAssembly (192ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (70ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (488ms)
+		LoadAssemblies (301ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (245ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (217ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (992ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (739ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (153ms)
+			ProcessInitializeOnLoadAttributes (488ms)
+			ProcessInitializeOnLoadMethodAttributes (81ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6570 unused Assets / (7.1 MB). Loaded Objects now: 7302.
+Memory consumption went from 139.3 MB to 132.2 MB.
+Total: 13.206192 ms (FindLiveObjects: 0.827475 ms CreateObjectMapping: 1.372181 ms MarkObjects: 6.680564 ms  DeleteObjects: 4.324249 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.775 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.918 seconds
+Domain Reload Profiling: 1695ms
+	BeginReloadAssembly (201ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (73ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (484ms)
+		LoadAssemblies (309ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (238ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (214ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (919ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (674ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (145ms)
+			ProcessInitializeOnLoadAttributes (425ms)
+			ProcessInitializeOnLoadMethodAttributes (89ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6570 unused Assets / (6.9 MB). Loaded Objects now: 7304.
+Memory consumption went from 139.2 MB to 132.3 MB.
+Total: 13.784985 ms (FindLiveObjects: 0.762053 ms CreateObjectMapping: 1.557393 ms MarkObjects: 7.683995 ms  DeleteObjects: 3.779946 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 417.358201 seconds.
+  path: Assets/Rooms/FirstRoom Variant.prefab
+  artifactKey: Guid(b3407f9c32313e6ae9fdec551cf8d7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/FirstRoom Variant.prefab using Guid(b3407f9c32313e6ae9fdec551cf8d7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7091f9de7a0a493cd7821846726e65f') in 0.595051028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.564002 seconds.
+  path: Assets/Rooms/UpDown.prefab
+  artifactKey: Guid(b3407f9c32313e6ae9fdec551cf8d7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/UpDown.prefab using Guid(b3407f9c32313e6ae9fdec551cf8d7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49aa297931b5ff753bc3dd8ae3c8ddd0') in 0.009346519 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.886836 seconds.
+  path: Assets/Rooms/UpDown.prefab
+  artifactKey: Guid(b3407f9c32313e6ae9fdec551cf8d7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/UpDown.prefab using Guid(b3407f9c32313e6ae9fdec551cf8d7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca0e603123d908cf30381e2f6d9101ea') in 0.008614443 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.912382 seconds.
+  path: Assets/Rooms/UpDown.prefab
+  artifactKey: Guid(b3407f9c32313e6ae9fdec551cf8d7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/UpDown.prefab using Guid(b3407f9c32313e6ae9fdec551cf8d7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1bcf24cb5579617fdaf607323875e8a8') in 0.008151457 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.770 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.917 seconds
+Domain Reload Profiling: 1689ms
+	BeginReloadAssembly (220ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (30ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (90ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (464ms)
+		LoadAssemblies (279ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (238ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (212ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (918ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (672ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (143ms)
+			ProcessInitializeOnLoadAttributes (435ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6570 unused Assets / (6.4 MB). Loaded Objects now: 7327.
+Memory consumption went from 141.0 MB to 134.6 MB.
+Total: 13.217996 ms (FindLiveObjects: 1.072655 ms CreateObjectMapping: 2.089284 ms MarkObjects: 6.495080 ms  DeleteObjects: 3.559804 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.954 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.992 seconds
+Domain Reload Profiling: 1948ms
+	BeginReloadAssembly (219ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (25ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (75ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (633ms)
+		LoadAssemblies (385ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (311ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (279ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (993ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (743ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (156ms)
+			ProcessInitializeOnLoadAttributes (483ms)
+			ProcessInitializeOnLoadMethodAttributes (92ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6570 unused Assets / (6.8 MB). Loaded Objects now: 7329.
+Memory consumption went from 140.9 MB to 134.1 MB.
+Total: 13.823905 ms (FindLiveObjects: 0.743811 ms CreateObjectMapping: 1.430521 ms MarkObjects: 8.023659 ms  DeleteObjects: 3.624732 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 373.734164 seconds.
+  path: Assets/Rooms/FirstRoom.prefab
+  artifactKey: Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/FirstRoom.prefab using Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2358adb9958d1911bfc42502d93966f1') in 0.52753717 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.526420 seconds.
+  path: Assets/Rooms/FirstRoom.prefab
+  artifactKey: Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/FirstRoom.prefab using Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17e4f86bbec25894140cd292d2c2b011') in 0.008543954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.409886 seconds.
+  path: Assets/Rooms/FirstRoom.prefab
+  artifactKey: Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/FirstRoom.prefab using Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f88c81e49c3c5713abd37a0bb7c814dd') in 0.012953256 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.602398 seconds.
+  path: Assets/Rooms/FirstRoom.prefab
+  artifactKey: Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/FirstRoom.prefab using Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30553e8ae6f04ab777281f13b960fb09') in 0.007218909 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.976827 seconds.
+  path: Assets/Rooms/FirstRoom.prefab
+  artifactKey: Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/FirstRoom.prefab using Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6af6f64dec341dfd602ba6645323c3a') in 0.010212527 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.076735 seconds.
+  path: Assets/Rooms/FirstRoom.prefab
+  artifactKey: Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/FirstRoom.prefab using Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b08c936d9106057cd6ef4fad1cb5592') in 0.007022805 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.631988 seconds.
+  path: Assets/Rooms/FirstRoom.prefab
+  artifactKey: Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/FirstRoom.prefab using Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dfc0cb2204b1a19befe8345a84e4e35a') in 0.006476471 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.984225 seconds.
+  path: Assets/Rooms/FirstRoom.prefab
+  artifactKey: Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/FirstRoom.prefab using Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0547688e1396f0733c138532e5d93721') in 0.008798861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.638744 seconds.
+  path: Assets/Rooms/FirstRoom.prefab
+  artifactKey: Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/FirstRoom.prefab using Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b15a9e540481f9a86af1804b5938bff0') in 0.00677828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.059823 seconds.
+  path: Assets/Rooms/FirstRoom.prefab
+  artifactKey: Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/FirstRoom.prefab using Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d3d7603c044e70fcb41e5142e82d440') in 0.006650198 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.053210 seconds.
+  path: Assets/Rooms/FirstRoom.prefab
+  artifactKey: Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/FirstRoom.prefab using Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '364f277f77ec106ba23ed4c727a59725') in 0.00868049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.561248 seconds.
+  path: Assets/Rooms/FirstRoom.prefab
+  artifactKey: Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/FirstRoom.prefab using Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2f2df72ca774bbd703e74ae7be635ff') in 0.005732553 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.824437 seconds.
+  path: Assets/Rooms/FirstRoom.prefab
+  artifactKey: Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/FirstRoom.prefab using Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8064006c9bef4c7e57985a99a56780f2') in 0.008391564 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.957908 seconds.
+  path: Assets/Rooms/FirstRoom.prefab
+  artifactKey: Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/FirstRoom.prefab using Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac2422eabba78f2e7680b06aa97de0ba') in 0.00658386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.569500 seconds.
+  path: Assets/Rooms/FirstRoom.prefab
+  artifactKey: Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/FirstRoom.prefab using Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1c86ad110d1c64a8497746eb7eff857') in 0.006278459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.257125 seconds.
+  path: Assets/Rooms/FirstRoom.prefab
+  artifactKey: Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/FirstRoom.prefab using Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d2d7a8a74c63cfad739e0ab72d8e5eb') in 0.005756841 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.602137 seconds.
+  path: Assets/Rooms/FirstRoom.prefab
+  artifactKey: Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/FirstRoom.prefab using Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb4483b73904b46622282171381ff15a') in 0.007456103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.832 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.944 seconds
+Domain Reload Profiling: 1778ms
+	BeginReloadAssembly (226ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (29ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (93ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (508ms)
+		LoadAssemblies (317ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (249ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (224ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (945ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (694ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (136ms)
+			ProcessInitializeOnLoadAttributes (452ms)
+			ProcessInitializeOnLoadMethodAttributes (94ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6570 unused Assets / (7.0 MB). Loaded Objects now: 7352.
+Memory consumption went from 142.6 MB to 135.6 MB.
+Total: 15.042599 ms (FindLiveObjects: 0.876133 ms CreateObjectMapping: 1.385865 ms MarkObjects: 8.071578 ms  DeleteObjects: 4.706886 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 990.106852 seconds.
+  path: Assets/Rooms/FirstRoom.prefab
+  artifactKey: Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/FirstRoom.prefab using Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9de7e17175ffcdaa6de3fc2bac13d940') in 0.612586317 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.812 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.990 seconds
+Domain Reload Profiling: 1804ms
+	BeginReloadAssembly (229ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (34ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (91ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (496ms)
+		LoadAssemblies (315ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (236ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (212ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (991ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (745ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (146ms)
+			ProcessInitializeOnLoadAttributes (499ms)
+			ProcessInitializeOnLoadMethodAttributes (87ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6570 unused Assets / (6.8 MB). Loaded Objects now: 7375.
+Memory consumption went from 144.2 MB to 137.4 MB.
+Total: 14.344231 ms (FindLiveObjects: 0.811190 ms CreateObjectMapping: 1.237782 ms MarkObjects: 8.423803 ms  DeleteObjects: 3.869483 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 35.067688 seconds.
+  path: Assets/Rooms/FirstRoom 1.prefab
+  artifactKey: Guid(04329ce80de2a062485d9bf0c26788de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/FirstRoom 1.prefab using Guid(04329ce80de2a062485d9bf0c26788de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '303ae9fb87758f5354835bdf0f13b893') in 0.568967147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.915795 seconds.
+  path: Assets/Rooms/UpDown.prefab
+  artifactKey: Guid(04329ce80de2a062485d9bf0c26788de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/UpDown.prefab using Guid(04329ce80de2a062485d9bf0c26788de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f66c34832a00c20ec1469e69c8363ca') in 0.008214362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.927010 seconds.
+  path: Assets/Rooms/UpDown.prefab
+  artifactKey: Guid(04329ce80de2a062485d9bf0c26788de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/UpDown.prefab using Guid(04329ce80de2a062485d9bf0c26788de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34f12c277b066e5e25559ff967d33b5f') in 0.008472297 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.781348 seconds.
+  path: Assets/Rooms/UpDown.prefab
+  artifactKey: Guid(04329ce80de2a062485d9bf0c26788de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/UpDown.prefab using Guid(04329ce80de2a062485d9bf0c26788de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4aaf701ea5a0d97340b1e0c8121b9288') in 0.008903141 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.368551 seconds.
+  path: Assets/Rooms/UpDown.prefab
+  artifactKey: Guid(04329ce80de2a062485d9bf0c26788de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/UpDown.prefab using Guid(04329ce80de2a062485d9bf0c26788de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '468ef39d9990eb816d4fb2260802b9be') in 0.00779207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.000341 seconds.
+  path: Assets/Rooms/UpDown.prefab
+  artifactKey: Guid(04329ce80de2a062485d9bf0c26788de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/UpDown.prefab using Guid(04329ce80de2a062485d9bf0c26788de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ab0fa8f53bf6122b25a52977bab5ba3') in 0.008253702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.583638 seconds.
+  path: Assets/Rooms/UpDown.prefab
+  artifactKey: Guid(04329ce80de2a062485d9bf0c26788de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/UpDown.prefab using Guid(04329ce80de2a062485d9bf0c26788de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3832ce249a0d713ad5a8dab8c84b63de') in 0.006922989 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.415100 seconds.
+  path: Assets/Rooms/UpDown.prefab
+  artifactKey: Guid(04329ce80de2a062485d9bf0c26788de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/UpDown.prefab using Guid(04329ce80de2a062485d9bf0c26788de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c51cffabd6b55a46743c7f6755ca8857') in 0.006215887 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.597314 seconds.
+  path: Assets/Rooms/UpDown.prefab
+  artifactKey: Guid(04329ce80de2a062485d9bf0c26788de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/UpDown.prefab using Guid(04329ce80de2a062485d9bf0c26788de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52e4856f1e65f9c5cbf7c79d050662b0') in 0.007263315 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.745477 seconds.
+  path: Assets/Rooms/UpDown.prefab
+  artifactKey: Guid(04329ce80de2a062485d9bf0c26788de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/UpDown.prefab using Guid(04329ce80de2a062485d9bf0c26788de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a794eaee35a06a376ddc8fbf6abea32') in 0.009641163 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.747540 seconds.
+  path: Assets/Rooms/UpDown.prefab
+  artifactKey: Guid(04329ce80de2a062485d9bf0c26788de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/UpDown.prefab using Guid(04329ce80de2a062485d9bf0c26788de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e38e070b0765e02e6a93b48b09c1dceb') in 0.010041142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.582213 seconds.
+  path: Assets/Rooms/UpDown.prefab
+  artifactKey: Guid(04329ce80de2a062485d9bf0c26788de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/UpDown.prefab using Guid(04329ce80de2a062485d9bf0c26788de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad935542d8736b29acd3a1a2aea6a5d2') in 0.010583285 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.733070 seconds.
+  path: Assets/Rooms/FirstRoom.prefab
+  artifactKey: Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/FirstRoom.prefab using Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95953f69814006717a8a6915ae0fa03b') in 0.008156493 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.771660 seconds.
+  path: Assets/Rooms/FirstRoom.prefab
+  artifactKey: Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/FirstRoom.prefab using Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '512d27f3ab50ed551ec22a5fa8238b16') in 0.0077936 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.381306 seconds.
+  path: Assets/Rooms/FirstRoom.prefab
+  artifactKey: Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/FirstRoom.prefab using Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce1f4412c9098a746eb6d5078604db1f') in 0.006795156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.277862 seconds.
+  path: Assets/Rooms/FirstRoom.prefab
+  artifactKey: Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/FirstRoom.prefab using Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52586ae225f735599c32514e6d8765ff') in 0.006363511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.836 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.938 seconds
+Domain Reload Profiling: 1777ms
+	BeginReloadAssembly (229ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (31ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (94ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (519ms)
+		LoadAssemblies (332ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (245ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (219ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (939ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (690ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (143ms)
+			ProcessInitializeOnLoadAttributes (440ms)
+			ProcessInitializeOnLoadMethodAttributes (92ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6570 unused Assets / (7.2 MB). Loaded Objects now: 7398.
+Memory consumption went from 145.7 MB to 138.5 MB.
+Total: 14.652132 ms (FindLiveObjects: 0.848050 ms CreateObjectMapping: 1.305200 ms MarkObjects: 8.470157 ms  DeleteObjects: 4.027370 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 1.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6559 unused Assets / (6.7 MB). Loaded Objects now: 7398.
+Memory consumption went from 145.7 MB to 139.0 MB.
+Total: 19.053584 ms (FindLiveObjects: 1.014263 ms CreateObjectMapping: 2.424099 ms MarkObjects: 10.710669 ms  DeleteObjects: 4.902692 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.798 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.924 seconds
+Domain Reload Profiling: 1724ms
+	BeginReloadAssembly (202ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (80ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (510ms)
+		LoadAssemblies (298ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (267ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (239ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (925ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (655ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (167ms)
+			ProcessInitializeOnLoadAttributes (404ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6570 unused Assets / (6.7 MB). Loaded Objects now: 7400.
+Memory consumption went from 145.6 MB to 138.9 MB.
+Total: 15.052671 ms (FindLiveObjects: 0.889088 ms CreateObjectMapping: 1.371230 ms MarkObjects: 9.245870 ms  DeleteObjects: 3.545433 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.785 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.890 seconds
+Domain Reload Profiling: 1678ms
+	BeginReloadAssembly (207ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (82ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (490ms)
+		LoadAssemblies (312ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (236ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (213ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (891ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (639ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (127ms)
+			ProcessInitializeOnLoadAttributes (406ms)
+			ProcessInitializeOnLoadMethodAttributes (94ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6570 unused Assets / (6.6 MB). Loaded Objects now: 7402.
+Memory consumption went from 145.6 MB to 139.0 MB.
+Total: 14.390815 ms (FindLiveObjects: 0.830064 ms CreateObjectMapping: 1.231618 ms MarkObjects: 6.356267 ms  DeleteObjects: 5.971707 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.815 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.858 seconds
+Domain Reload Profiling: 1674ms
+	BeginReloadAssembly (218ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (76ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (508ms)
+		LoadAssemblies (307ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (263ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (236ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (859ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (606ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (138ms)
+			ProcessInitializeOnLoadAttributes (385ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6570 unused Assets / (6.6 MB). Loaded Objects now: 7404.
+Memory consumption went from 145.6 MB to 139.0 MB.
+Total: 11.401567 ms (FindLiveObjects: 0.898824 ms CreateObjectMapping: 1.292530 ms MarkObjects: 5.749036 ms  DeleteObjects: 3.460263 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.813 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.985 seconds
+Domain Reload Profiling: 1801ms
+	BeginReloadAssembly (204ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (80ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (520ms)
+		LoadAssemblies (338ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (240ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (216ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (986ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (733ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (149ms)
+			ProcessInitializeOnLoadAttributes (485ms)
+			ProcessInitializeOnLoadMethodAttributes (87ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6570 unused Assets / (7.4 MB). Loaded Objects now: 7406.
+Memory consumption went from 145.6 MB to 138.2 MB.
+Total: 14.648196 ms (FindLiveObjects: 0.818490 ms CreateObjectMapping: 1.258338 ms MarkObjects: 6.216219 ms  DeleteObjects: 6.354022 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.783 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.928 seconds
+Domain Reload Profiling: 1713ms
+	BeginReloadAssembly (228ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (29ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (88ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (468ms)
+		LoadAssemblies (287ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (240ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (213ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (929ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (663ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (134ms)
+			ProcessInitializeOnLoadAttributes (438ms)
+			ProcessInitializeOnLoadMethodAttributes (78ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (27ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6570 unused Assets / (6.7 MB). Loaded Objects now: 7408.
+Memory consumption went from 145.6 MB to 138.9 MB.
+Total: 11.452801 ms (FindLiveObjects: 0.777796 ms CreateObjectMapping: 1.240112 ms MarkObjects: 5.752074 ms  DeleteObjects: 3.681968 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.791 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.864 seconds
+Domain Reload Profiling: 1656ms
+	BeginReloadAssembly (219ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (26ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (76ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (483ms)
+		LoadAssemblies (302ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (240ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (213ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (864ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (620ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (164ms)
+			ProcessInitializeOnLoadAttributes (366ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6570 unused Assets / (6.8 MB). Loaded Objects now: 7410.
+Memory consumption went from 145.7 MB to 138.8 MB.
+Total: 11.402271 ms (FindLiveObjects: 0.880568 ms CreateObjectMapping: 1.315938 ms MarkObjects: 5.482693 ms  DeleteObjects: 3.721834 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.779 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.983 seconds
+Domain Reload Profiling: 1763ms
+	BeginReloadAssembly (213ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (81ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (476ms)
+		LoadAssemblies (299ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (240ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (216ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (983ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (728ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (163ms)
+			ProcessInitializeOnLoadAttributes (457ms)
+			ProcessInitializeOnLoadMethodAttributes (92ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6570 unused Assets / (6.8 MB). Loaded Objects now: 7412.
+Memory consumption went from 145.7 MB to 138.8 MB.
+Total: 15.297695 ms (FindLiveObjects: 0.821669 ms CreateObjectMapping: 1.271914 ms MarkObjects: 8.947789 ms  DeleteObjects: 4.255109 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.859 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.008 seconds
+Domain Reload Profiling: 1869ms
+	BeginReloadAssembly (193ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (74ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (575ms)
+		LoadAssemblies (345ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (284ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (254ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1009ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (723ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (176ms)
+			ProcessInitializeOnLoadAttributes (435ms)
+			ProcessInitializeOnLoadMethodAttributes (91ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6570 unused Assets / (6.9 MB). Loaded Objects now: 7414.
+Memory consumption went from 145.7 MB to 138.7 MB.
+Total: 13.783505 ms (FindLiveObjects: 0.851123 ms CreateObjectMapping: 1.242823 ms MarkObjects: 6.254843 ms  DeleteObjects: 5.433460 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 528.244296 seconds.
+  path: Assets/Rooms/UpDown 1.prefab
+  artifactKey: Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/UpDown 1.prefab using Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21e19ca7185adb3e31f6925e3b928663') in 0.580443034 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.182577 seconds.
+  path: Assets/Rooms/LeftDown.prefab
+  artifactKey: Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/LeftDown.prefab using Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25c68fa712108b26792313f51b5f10c1') in 0.008345334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.287569 seconds.
+  path: Assets/Rooms/LeftDown.prefab
+  artifactKey: Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/LeftDown.prefab using Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd36e3d9e69ac7ccc5570aea8204ba5b9') in 0.007653835 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.406603 seconds.
+  path: Assets/Rooms/LeftDown.prefab
+  artifactKey: Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/LeftDown.prefab using Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6fd76cc27f709acc66526c3d0332711') in 0.00807718 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.375727 seconds.
+  path: Assets/Rooms/LeftDown.prefab
+  artifactKey: Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/LeftDown.prefab using Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41d0f59fcee507ac44025421b91bf5b4') in 0.007509066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.546717 seconds.
+  path: Assets/Rooms/LeftDown.prefab
+  artifactKey: Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/LeftDown.prefab using Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '811e98bca9623d2d9c19318a5c033432') in 0.007576284 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.151727 seconds.
+  path: Assets/Rooms/LeftDown.prefab
+  artifactKey: Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/LeftDown.prefab using Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd406c22639e83543df9bcc7bfc3a7d2b') in 0.009262484 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.473709 seconds.
+  path: Assets/Rooms/LeftDown.prefab
+  artifactKey: Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/LeftDown.prefab using Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0131bb10921e1df2ff89e2b2e7a5a30a') in 0.006464018 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.330617 seconds.
+  path: Assets/Rooms/LeftDown 1.prefab
+  artifactKey: Guid(cbbb632feba649292a487f033f2281cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/LeftDown 1.prefab using Guid(cbbb632feba649292a487f033f2281cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a4c319a6f3639c24fe0b7d38e35d56c') in 0.008889799 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.208867 seconds.
+  path: Assets/Rooms/RightDown.prefab
+  artifactKey: Guid(cbbb632feba649292a487f033f2281cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/RightDown.prefab using Guid(cbbb632feba649292a487f033f2281cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32e4ebf4afae47f39b7cf7d853ea109f') in 0.006306523 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.109510 seconds.
+  path: Assets/Rooms/LeftDown.prefab
+  artifactKey: Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/LeftDown.prefab using Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'efe8cb45d605d3cfe9e85be673167840') in 0.007929078 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.191129 seconds.
+  path: Assets/Rooms/LeftDown.prefab
+  artifactKey: Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/LeftDown.prefab using Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95f30f54d317483cc182f50192faad99') in 0.006264863 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.110170 seconds.
+  path: Assets/Rooms/LeftDown.prefab
+  artifactKey: Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/LeftDown.prefab using Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7102961a17aff56fb822f07922b955b6') in 0.008054464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.836470 seconds.
+  path: Assets/Rooms/LeftDown.prefab
+  artifactKey: Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/LeftDown.prefab using Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30c865702d161d5110a860df47871a25') in 0.007673076 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.575144 seconds.
+  path: Assets/Rooms/UpDown 1.prefab
+  artifactKey: Guid(f21349f76f7089af4aa0b20b718fb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/UpDown 1.prefab using Guid(f21349f76f7089af4aa0b20b718fb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35fbfb1c2366a899a2e0860cfadf9530') in 0.007014099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.808719 seconds.
+  path: Assets/Rooms/LeftRight.prefab
+  artifactKey: Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/LeftRight.prefab using Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b0b826d90e7a271ca003075838c3e27') in 0.007285271 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.525913 seconds.
+  path: Assets/Rooms/LeftRight.prefab
+  artifactKey: Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/LeftRight.prefab using Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f2cb30681c16a43a86b155678012baa') in 0.009233734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.493577 seconds.
+  path: Assets/Rooms/LeftRight.prefab
+  artifactKey: Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/LeftRight.prefab using Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b18738a3c9400e4282661e17824c360') in 0.006600515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.474637 seconds.
+  path: Assets/Rooms/LeftRight.prefab
+  artifactKey: Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/LeftRight.prefab using Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '581ac71ef6b006d49678b8854dff35e0') in 0.009148966 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.259433 seconds.
+  path: Assets/Rooms/LeftRight.prefab
+  artifactKey: Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/LeftRight.prefab using Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af475b6bca98189125135faa777fca6e') in 0.006445266 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.051425 seconds.
+  path: Assets/Rooms/LeftRight 1.prefab
+  artifactKey: Guid(11ebfb800592dac2f911432413ee8f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/LeftRight 1.prefab using Guid(11ebfb800592dac2f911432413ee8f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9e7cf69689658bf0f2d5a786f01f7c4') in 0.006657074 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.802084 seconds.
+  path: Assets/Rooms/LeftUp.prefab
+  artifactKey: Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/LeftUp.prefab using Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7bdd53d85ec57daf06fca653792bd19a') in 0.008191863 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.191102 seconds.
+  path: Assets/Rooms/LeftUp.prefab
+  artifactKey: Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/LeftUp.prefab using Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b12ba55cbf2882a2e85b145238135e8c') in 0.009737566 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.643264 seconds.
+  path: Assets/Rooms/LeftUp.prefab
+  artifactKey: Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/LeftUp.prefab using Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7cf47c98c899fc626366e3a0e4066d14') in 0.007837863 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.501066 seconds.
+  path: Assets/Rooms/LeftUp.prefab
+  artifactKey: Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/LeftUp.prefab using Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b251ca83054509e7819c064f27abcd1') in 0.008606947 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.900831 seconds.
+  path: Assets/Rooms/LeftUp.prefab
+  artifactKey: Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/LeftUp.prefab using Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ddac1f6f99dbefe4c00e585697137840') in 0.007088784 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.613601 seconds.
+  path: Assets/Rooms/UpDown 2.prefab
+  artifactKey: Guid(1743e3c92f7e0931782c003bcdcb6efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/UpDown 2.prefab using Guid(1743e3c92f7e0931782c003bcdcb6efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b394b3c4123c3e07d4e2499b5355db72') in 0.010432916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.894338 seconds.
+  path: Assets/Rooms/UpRight.prefab
+  artifactKey: Guid(f21349f76f7089af4aa0b20b718fb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/UpRight.prefab using Guid(f21349f76f7089af4aa0b20b718fb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7726c56363c6ce4dd3dbaf12b5c3d15') in 0.007442665 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.347716 seconds.
+  path: Assets/Rooms/UpRight.prefab
+  artifactKey: Guid(f21349f76f7089af4aa0b20b718fb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/UpRight.prefab using Guid(f21349f76f7089af4aa0b20b718fb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b159c7de74ba35976d6f9a27a4940f79') in 0.00738189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.479881 seconds.
+  path: Assets/Rooms/UpRight.prefab
+  artifactKey: Guid(f21349f76f7089af4aa0b20b718fb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/UpRight.prefab using Guid(f21349f76f7089af4aa0b20b718fb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2fae13c269639f0620bc38152991b1e') in 0.005979877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.389746 seconds.
+  path: Assets/Rooms/UpRight.prefab
+  artifactKey: Guid(f21349f76f7089af4aa0b20b718fb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/UpRight.prefab using Guid(f21349f76f7089af4aa0b20b718fb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '820cf92cb9f5388d7a99468bada3337c') in 0.008491795 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.914328 seconds.
+  path: Assets/Rooms/UpRight.prefab
+  artifactKey: Guid(f21349f76f7089af4aa0b20b718fb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/UpRight.prefab using Guid(f21349f76f7089af4aa0b20b718fb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b105280e31b173795e67dc6558e6f03') in 0.007120955 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.678306 seconds.
+  path: Assets/Art/Tilemap/Palette/Palette.prefab
+  artifactKey: Guid(2bab73f18999c0dc39d68dabd5c117b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilemap/Palette/Palette.prefab using Guid(2bab73f18999c0dc39d68dabd5c117b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0a56b4fcc75448c863be5bf919e4dee') in 0.005688389 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.895 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.981 seconds
+Domain Reload Profiling: 1877ms
+	BeginReloadAssembly (262ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (44ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (109ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (533ms)
+		LoadAssemblies (336ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (257ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (229ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (981ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (700ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (185ms)
+			ProcessInitializeOnLoadAttributes (426ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6570 unused Assets / (6.5 MB). Loaded Objects now: 7437.
+Memory consumption went from 147.4 MB to 140.8 MB.
+Total: 12.118948 ms (FindLiveObjects: 0.772341 ms CreateObjectMapping: 1.174683 ms MarkObjects: 6.690857 ms  DeleteObjects: 3.480019 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.843 seconds
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.018 seconds
+Domain Reload Profiling: 1863ms
+	BeginReloadAssembly (229ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (87ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (519ms)
+		LoadAssemblies (335ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (259ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (231ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1019ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (742ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (169ms)
+			ProcessInitializeOnLoadAttributes (448ms)
+			ProcessInitializeOnLoadMethodAttributes (112ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6570 unused Assets / (7.1 MB). Loaded Objects now: 7439.
+Memory consumption went from 147.2 MB to 140.0 MB.
+Total: 15.811917 ms (FindLiveObjects: 0.840927 ms CreateObjectMapping: 1.251013 ms MarkObjects: 8.498877 ms  DeleteObjects: 5.219792 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6560 unused Assets / (5.9 MB). Loaded Objects now: 7440.
+Memory consumption went from 147.3 MB to 141.5 MB.
+Total: 12.744005 ms (FindLiveObjects: 0.811775 ms CreateObjectMapping: 1.230263 ms MarkObjects: 7.338605 ms  DeleteObjects: 3.362351 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 396.511497 seconds.
+  path: Assets/Scripts/Room.cs
+  artifactKey: Guid(43ac1984fa905a3c3807717c37ce7bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Room.cs using Guid(43ac1984fa905a3c3807717c37ce7bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'faa898b1fba6402c49a6d6241e2ef778') in 0.012909161 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.856 seconds
+Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.117 seconds
+Domain Reload Profiling: 1974ms
+	BeginReloadAssembly (239ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (98ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (519ms)
+		LoadAssemblies (323ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (265ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (235ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1117ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (811ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (211ms)
+			ProcessInitializeOnLoadAttributes (491ms)
+			ProcessInitializeOnLoadMethodAttributes (93ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6571 unused Assets / (6.9 MB). Loaded Objects now: 7442.
+Memory consumption went from 147.2 MB to 140.3 MB.
+Total: 20.948649 ms (FindLiveObjects: 1.542911 ms CreateObjectMapping: 3.756652 ms MarkObjects: 10.155366 ms  DeleteObjects: 5.491834 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.780 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.082 seconds
+Domain Reload Profiling: 1864ms
+	BeginReloadAssembly (206ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (78ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (484ms)
+		LoadAssemblies (302ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (242ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (214ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1083ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (784ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (157ms)
+			ProcessInitializeOnLoadAttributes (490ms)
+			ProcessInitializeOnLoadMethodAttributes (120ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 1.06 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6571 unused Assets / (7.0 MB). Loaded Objects now: 7444.
+Memory consumption went from 147.2 MB to 140.2 MB.
+Total: 18.012446 ms (FindLiveObjects: 1.463838 ms CreateObjectMapping: 2.559184 ms MarkObjects: 8.243956 ms  DeleteObjects: 5.743748 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.803 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.949 seconds
+Domain Reload Profiling: 1754ms
+	BeginReloadAssembly (228ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (105ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (488ms)
+		LoadAssemblies (292ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (250ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (223ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (950ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (700ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (147ms)
+			ProcessInitializeOnLoadAttributes (462ms)
+			ProcessInitializeOnLoadMethodAttributes (78ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6571 unused Assets / (6.1 MB). Loaded Objects now: 7446.
+Memory consumption went from 147.2 MB to 141.1 MB.
+Total: 13.986885 ms (FindLiveObjects: 0.935883 ms CreateObjectMapping: 1.605863 ms MarkObjects: 6.895311 ms  DeleteObjects: 4.548434 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 170.802517 seconds.
+  path: Assets/Rooms/FirstRoom.prefab
+  artifactKey: Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/FirstRoom.prefab using Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2114b22b71eed0232f41267b2043070b') in 0.565633238 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.958047 seconds.
+  path: Assets/Rooms/FirstRoom.prefab
+  artifactKey: Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/FirstRoom.prefab using Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd616d3e42f92783f7118ec454dd0771e') in 0.007351201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.684788 seconds.
+  path: Assets/Rooms/FirstRoom.prefab
+  artifactKey: Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/FirstRoom.prefab using Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc959a87bb18bbdba38883dd0c4c6881') in 0.010563202 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.590371 seconds.
+  path: Assets/Rooms/FirstRoom.prefab
+  artifactKey: Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/FirstRoom.prefab using Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '430af5b35c3314eb2cdfb81df1e5fd57') in 0.006668131 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.991209 seconds.
+  path: Assets/Rooms/FirstRoom.prefab
+  artifactKey: Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/FirstRoom.prefab using Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54879a373387ba3c8dc7dc7b5aba1f7c') in 0.007477728 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.525457 seconds.
+  path: Assets/Rooms/LeftRight 1.prefab
+  artifactKey: Guid(11ebfb800592dac2f911432413ee8f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/LeftRight 1.prefab using Guid(11ebfb800592dac2f911432413ee8f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9fa4221df02ba8ce897be74ec6a3be72') in 0.008086706 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 70.628392 seconds.
+  path: Assets/Rooms/LeftUp.prefab
+  artifactKey: Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/LeftUp.prefab using Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c54d80d0361779404b73c51bc528a99') in 0.008758116 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.164289 seconds.
+  path: Assets/Rooms/RightDown.prefab
+  artifactKey: Guid(cbbb632feba649292a487f033f2281cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/RightDown.prefab using Guid(cbbb632feba649292a487f033f2281cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1125f911b515d2019630a419aa65b0d8') in 0.00674772 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.116995 seconds.
+  path: Assets/Rooms/RightDown.prefab
+  artifactKey: Guid(cbbb632feba649292a487f033f2281cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/RightDown.prefab using Guid(cbbb632feba649292a487f033f2281cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '077afd8ee5fb61739a2d8a01a9234afb') in 0.006292753 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.139964 seconds.
+  path: Assets/Rooms/RightDown.prefab
+  artifactKey: Guid(cbbb632feba649292a487f033f2281cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/RightDown.prefab using Guid(cbbb632feba649292a487f033f2281cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '605a186d98c5f7218f82d4c32ea64923') in 0.006497119 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.943132 seconds.
+  path: Assets/Rooms/UpDown.prefab
+  artifactKey: Guid(04329ce80de2a062485d9bf0c26788de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/UpDown.prefab using Guid(04329ce80de2a062485d9bf0c26788de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74ddd9b9853c61dd450010a12033073c') in 0.0062588 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.870883 seconds.
+  path: Assets/Rooms/UpRight.prefab
+  artifactKey: Guid(f21349f76f7089af4aa0b20b718fb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/UpRight.prefab using Guid(f21349f76f7089af4aa0b20b718fb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4204b4ee77f4ed90662af5d0bc5920e6') in 0.006416777 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.807779 seconds.
+  path: Assets/Rooms/UpRight.prefab
+  artifactKey: Guid(f21349f76f7089af4aa0b20b718fb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/UpRight.prefab using Guid(f21349f76f7089af4aa0b20b718fb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0578ab99a64de7ac19210549a5c04585') in 0.00952826 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.201434 seconds.
+  path: Assets/Rooms/UpRight.prefab
+  artifactKey: Guid(f21349f76f7089af4aa0b20b718fb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/UpRight.prefab using Guid(f21349f76f7089af4aa0b20b718fb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b472ff74cf4c4d9772018b97d36bd15') in 0.009915268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.829 seconds
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.970 seconds
+Domain Reload Profiling: 1801ms
+	BeginReloadAssembly (245ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (36ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (106ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (496ms)
+		LoadAssemblies (305ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (245ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (218ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (971ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (714ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (171ms)
+			ProcessInitializeOnLoadAttributes (447ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6571 unused Assets / (6.0 MB). Loaded Objects now: 7469.
+Memory consumption went from 149.0 MB to 142.9 MB.
+Total: 11.631663 ms (FindLiveObjects: 0.992461 ms CreateObjectMapping: 1.398081 ms MarkObjects: 5.804787 ms  DeleteObjects: 3.435321 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 216.532412 seconds.
+  path: Assets/Rooms/FirstRoom.prefab
+  artifactKey: Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/FirstRoom.prefab using Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '636e85cec85291874df0c0db7dd113c1') in 0.556143775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.697623 seconds.
+  path: Assets/Rooms/FirstRoom.prefab
+  artifactKey: Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/FirstRoom.prefab using Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a1817fab90e2f5dc9d97310edf6daed') in 0.006804111 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.105462 seconds.
+  path: Assets/Rooms/FirstRoom.prefab
+  artifactKey: Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/FirstRoom.prefab using Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0346ef92f4eb8a947d0216bec3337fa') in 0.006885937 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.502820 seconds.
+  path: Assets/Rooms/FirstRoom.prefab
+  artifactKey: Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/FirstRoom.prefab using Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50b46506d03ddf8985c57fe34824f080') in 0.007031955 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 49
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.201621 seconds.
+  path: Assets/Rooms/FirstRoom.prefab
+  artifactKey: Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/FirstRoom.prefab using Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c475239a81bfc139bed38bf4c205b8c') in 0.009488712 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 63
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.454636 seconds.
+  path: Assets/Rooms/LeftUp.prefab
+  artifactKey: Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/LeftUp.prefab using Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f469a6b4869a4513b093f9b886a13443') in 0.008596281 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.319272 seconds.
+  path: Assets/Rooms/LeftUp.prefab
+  artifactKey: Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/LeftUp.prefab using Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f642c3cf455dab36518a832be4fc9ea2') in 0.006770242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.739556 seconds.
+  path: Assets/Rooms/LeftUp.prefab
+  artifactKey: Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/LeftUp.prefab using Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6af984eeb89eccb0016b28b4b3fc3234') in 0.007118266 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.065747 seconds.
+  path: Assets/Rooms/LeftUp.prefab
+  artifactKey: Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/LeftUp.prefab using Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e258c038b5c928a08c71dec8a884f7ba') in 0.010659229 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 49
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.478392 seconds.
+  path: Assets/Rooms/LeftUp.prefab
+  artifactKey: Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/LeftUp.prefab using Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '993d92058bdaf6047d08854320d8ae18') in 0.007705537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 63
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.114828 seconds.
+  path: Assets/Rooms/FirstRoom.prefab
+  artifactKey: Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/FirstRoom.prefab using Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9060b719b5d795d737ce9e24786d445') in 0.008325011 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 64
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Rooms/RightDown.prefab
+  artifactKey: Guid(cbbb632feba649292a487f033f2281cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/RightDown.prefab using Guid(cbbb632feba649292a487f033f2281cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '201edcd04b0f940560875fb280641586') in 0.008990069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.716296 seconds.
+  path: Assets/Rooms/UpRight 1.prefab
+  artifactKey: Guid(098741f794037f2faa1cf007a6c2d6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/UpRight 1.prefab using Guid(098741f794037f2faa1cf007a6c2d6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '408fde08496b7e3c7a8b481f1a16756b') in 0.005955906 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.401274 seconds.
+  path: Assets/Rooms/DownRight.prefab
+  artifactKey: Guid(f21349f76f7089af4aa0b20b718fb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/DownRight.prefab using Guid(f21349f76f7089af4aa0b20b718fb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c62c996eb7de229379a8c991797cb98') in 0.08633835 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.495643 seconds.
+  path: Assets/Rooms/UpRight.prefab
+  artifactKey: Guid(098741f794037f2faa1cf007a6c2d6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/UpRight.prefab using Guid(098741f794037f2faa1cf007a6c2d6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ab9613b9ce3b3388c825823fbabd6de') in 0.00931917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.713240 seconds.
+  path: Assets/Rooms/UpRight.prefab
+  artifactKey: Guid(098741f794037f2faa1cf007a6c2d6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/UpRight.prefab using Guid(098741f794037f2faa1cf007a6c2d6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c37bf609da34d1e0be84d428bcb2a499') in 0.013088887 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.181515 seconds.
+  path: Assets/Rooms/UpRight.prefab
+  artifactKey: Guid(098741f794037f2faa1cf007a6c2d6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/UpRight.prefab using Guid(098741f794037f2faa1cf007a6c2d6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e068cda8087da71aa111b6d467cf342') in 0.007137737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.885035 seconds.
+  path: Assets/Rooms/UpRight.prefab
+  artifactKey: Guid(098741f794037f2faa1cf007a6c2d6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/UpRight.prefab using Guid(098741f794037f2faa1cf007a6c2d6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d27aeb3d02e83d4b388e8c574ac4485') in 0.008201465 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.124867 seconds.
+  path: Assets/Rooms/UpRight.prefab
+  artifactKey: Guid(098741f794037f2faa1cf007a6c2d6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/UpRight.prefab using Guid(098741f794037f2faa1cf007a6c2d6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a063f9046efc791a43c078e2f4457219') in 0.006356176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.665059 seconds.
+  path: Assets/Rooms/UpRight.prefab
+  artifactKey: Guid(098741f794037f2faa1cf007a6c2d6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/UpRight.prefab using Guid(098741f794037f2faa1cf007a6c2d6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79c37c9b5d4e73bb3645815159c958ab') in 0.006533795 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.859565 seconds.
+  path: Assets/Rooms/DownRight.prefab
+  artifactKey: Guid(f21349f76f7089af4aa0b20b718fb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/DownRight.prefab using Guid(f21349f76f7089af4aa0b20b718fb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'efc9a6a10d59b4bb4102924966b0720f') in 0.010157923 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.418704 seconds.
+  path: Assets/Rooms/DownRight.prefab
+  artifactKey: Guid(f21349f76f7089af4aa0b20b718fb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/DownRight.prefab using Guid(f21349f76f7089af4aa0b20b718fb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd77f180079996c173a6b064a8d91395f') in 0.007918862 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Rooms/LeftUp.prefab
+  artifactKey: Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/LeftUp.prefab using Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa9b66fe0acbcb293553a7146d258a3d') in 0.008420222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 65
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.718950 seconds.
+  path: Assets/Rooms/DownRight.prefab
+  artifactKey: Guid(f21349f76f7089af4aa0b20b718fb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/DownRight.prefab using Guid(f21349f76f7089af4aa0b20b718fb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c3467860e2e9b876b4f776731fea086') in 0.009178645 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 65
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Rooms/LeftUp.prefab
+  artifactKey: Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/LeftUp.prefab using Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '327fe383ead16d116be866d01fe9a01a') in 0.008476001 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 65
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.205828 seconds.
+  path: Assets/Rooms/DownRight.prefab
+  artifactKey: Guid(f21349f76f7089af4aa0b20b718fb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/DownRight.prefab using Guid(f21349f76f7089af4aa0b20b718fb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '676620d8b9ee055cd14dae09c7cf7852') in 0.009231312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 65
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Rooms/RightDown.prefab
+  artifactKey: Guid(cbbb632feba649292a487f033f2281cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/RightDown.prefab using Guid(cbbb632feba649292a487f033f2281cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16154e99b53775606d9095503933701b') in 0.008250929 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.236569 seconds.
+  path: Assets/Rooms/DownRight.prefab
+  artifactKey: Guid(f21349f76f7089af4aa0b20b718fb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/DownRight.prefab using Guid(f21349f76f7089af4aa0b20b718fb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f4aaea28d0ee5d220670847820a937f') in 0.008320966 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 79
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Rooms/LeftUp.prefab
+  artifactKey: Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/LeftUp.prefab using Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95103be04504c0fe75b91a8b1d031df2') in 0.011632034 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 79
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.031690 seconds.
+  path: Assets/Rooms/DownRight.prefab
+  artifactKey: Guid(f21349f76f7089af4aa0b20b718fb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/DownRight.prefab using Guid(f21349f76f7089af4aa0b20b718fb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cda100a21b30908a7657c3f107c0ef42') in 0.008987779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 80
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Rooms/LeftUp.prefab
+  artifactKey: Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/LeftUp.prefab using Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd98650b6a5413f7ab879bcb6744e4edc') in 0.009545112 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 80
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.988288 seconds.
+  path: Assets/Rooms/DownRight.prefab
+  artifactKey: Guid(f21349f76f7089af4aa0b20b718fb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/DownRight.prefab using Guid(f21349f76f7089af4aa0b20b718fb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a5b99813306d979e9c6be9c42d72110') in 0.008544993 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 80
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Rooms/UpDown.prefab
+  artifactKey: Guid(04329ce80de2a062485d9bf0c26788de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/UpDown.prefab using Guid(04329ce80de2a062485d9bf0c26788de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8879bd55f1a7ca9a9a70de2a2390ccec') in 0.014117357 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.654204 seconds.
+  path: Assets/Rooms/DownRight.prefab
+  artifactKey: Guid(f21349f76f7089af4aa0b20b718fb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/DownRight.prefab using Guid(f21349f76f7089af4aa0b20b718fb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5d68a677966100f1143e8d22bbcb99a') in 0.011521808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 80
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Rooms/UpDown.prefab
+  artifactKey: Guid(04329ce80de2a062485d9bf0c26788de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/UpDown.prefab using Guid(04329ce80de2a062485d9bf0c26788de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55ac217a25e762f6b61b6a72f2127b15') in 0.011745401 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 50
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.761114 seconds.
+  path: Assets/Rooms/DownRight.prefab
+  artifactKey: Guid(f21349f76f7089af4aa0b20b718fb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/DownRight.prefab using Guid(f21349f76f7089af4aa0b20b718fb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c948b7e556410ad92ab978395c7a40d4') in 0.008721909 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 80
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Rooms/UpDown.prefab
+  artifactKey: Guid(04329ce80de2a062485d9bf0c26788de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/UpDown.prefab using Guid(04329ce80de2a062485d9bf0c26788de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf7f00c065606e9fbef02fd44fcdac35') in 0.007723024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 80
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.843143 seconds.
+  path: Assets/Rooms/DownRight.prefab
+  artifactKey: Guid(f21349f76f7089af4aa0b20b718fb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/DownRight.prefab using Guid(f21349f76f7089af4aa0b20b718fb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '518962a5dd718fd443bc16cc9ed6b3e0') in 0.010851314 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 80
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Rooms/LeftUp.prefab
+  artifactKey: Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/LeftUp.prefab using Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '686b8f793fa17e35f9bd28b6288788a4') in 0.011658291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 80
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.745265 seconds.
+  path: Assets/Rooms/DownRight.prefab
+  artifactKey: Guid(f21349f76f7089af4aa0b20b718fb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/DownRight.prefab using Guid(f21349f76f7089af4aa0b20b718fb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ddf914e60142bf79573605d780ce505') in 0.01232207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 81
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Rooms/LeftUp.prefab
+  artifactKey: Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/LeftUp.prefab using Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0364fde2e88582044a53285bd990c10a') in 0.010296055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 81
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Rooms/RightDown.prefab
+  artifactKey: Guid(cbbb632feba649292a487f033f2281cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/RightDown.prefab using Guid(cbbb632feba649292a487f033f2281cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '877906d5414811c78175fb10c7194a61') in 0.007635393 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 36
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.800475 seconds.
+  path: Assets/Rooms/DownRight.prefab
+  artifactKey: Guid(f21349f76f7089af4aa0b20b718fb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/DownRight.prefab using Guid(f21349f76f7089af4aa0b20b718fb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57703f2d75e28f56d48db29061a57ada') in 0.012298408 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 81
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Rooms/UpDown.prefab
+  artifactKey: Guid(04329ce80de2a062485d9bf0c26788de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/UpDown.prefab using Guid(04329ce80de2a062485d9bf0c26788de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '347777887470c687b7e50dc07daa1df1') in 0.010518657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 81
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Rooms/UpRight.prefab
+  artifactKey: Guid(098741f794037f2faa1cf007a6c2d6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/UpRight.prefab using Guid(098741f794037f2faa1cf007a6c2d6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '37f2265601c19ef899eba8aec2517599') in 0.006483055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.242858 seconds.
+  path: Assets/Rooms/DownRight.prefab
+  artifactKey: Guid(f21349f76f7089af4aa0b20b718fb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/DownRight.prefab using Guid(f21349f76f7089af4aa0b20b718fb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cfb1c2ad36f6e623c6ced501b40d591c') in 0.009931434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 81
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Rooms/LeftUp.prefab
+  artifactKey: Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/LeftUp.prefab using Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '377d1833a4422a320565ee300d6676d0') in 0.009016126 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 81
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Rooms/UpRight.prefab
+  artifactKey: Guid(098741f794037f2faa1cf007a6c2d6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/UpRight.prefab using Guid(098741f794037f2faa1cf007a6c2d6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd5b416a8355d42ba44a83a163875def') in 0.008357406 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 36
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.355264 seconds.
+  path: Assets/Rooms/DownRight.prefab
+  artifactKey: Guid(f21349f76f7089af4aa0b20b718fb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/DownRight.prefab using Guid(f21349f76f7089af4aa0b20b718fb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86691addec165767d7aefeb5aad4d3fc') in 0.008804117 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 81
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Rooms/LeftUp.prefab
+  artifactKey: Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/LeftUp.prefab using Guid(922ff77d9f59778449c502473beeb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e05564d5fa2d6821e2117afd57223a91') in 0.008249136 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 81
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Rooms/RightDown.prefab
+  artifactKey: Guid(cbbb632feba649292a487f033f2281cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/RightDown.prefab using Guid(cbbb632feba649292a487f033f2281cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6913fa8740b696730e06252070f01893') in 0.009219552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 81
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.746179 seconds.
+  path: Assets/Rooms/DownRight.prefab
+  artifactKey: Guid(f21349f76f7089af4aa0b20b718fb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/DownRight.prefab using Guid(f21349f76f7089af4aa0b20b718fb377) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3756a75cb53a8b8f9fee5c0b3fd4db8c') in 0.013093445 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 81
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Rooms/UpDown.prefab
+  artifactKey: Guid(04329ce80de2a062485d9bf0c26788de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/UpDown.prefab using Guid(04329ce80de2a062485d9bf0c26788de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a4b2492f5efebfdf465499e9471a48e2') in 0.00928161 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 81
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Rooms/UpRight.prefab
+  artifactKey: Guid(098741f794037f2faa1cf007a6c2d6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/UpRight.prefab using Guid(098741f794037f2faa1cf007a6c2d6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ccc3fb88faa5496986f6e6b0c117519') in 0.012471322 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 81
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.827 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.976 seconds
+Domain Reload Profiling: 1805ms
+	BeginReloadAssembly (242ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (35ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (101ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (496ms)
+		LoadAssemblies (306ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (248ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (220ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (977ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (727ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (161ms)
+			ProcessInitializeOnLoadAttributes (463ms)
+			ProcessInitializeOnLoadMethodAttributes (84ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6571 unused Assets / (7.2 MB). Loaded Objects now: 7492.
+Memory consumption went from 150.5 MB to 143.2 MB.
+Total: 14.411565 ms (FindLiveObjects: 0.921622 ms CreateObjectMapping: 1.400816 ms MarkObjects: 6.611590 ms  DeleteObjects: 5.475598 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 96.801495 seconds.
+  path: Assets/Rooms/FirstRoom.prefab
+  artifactKey: Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/FirstRoom.prefab using Guid(95591470bccb3f9478eb44b2018f3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14be5c2cb34c2d4a85a006fc568a7ee0') in 0.538701458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 96
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Rooms/UpRight.prefab
+  artifactKey: Guid(098741f794037f2faa1cf007a6c2d6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rooms/UpRight.prefab using Guid(098741f794037f2faa1cf007a6c2d6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '590e3f3a06603a313b69bdc41992ae0f') in 0.010168306 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 81
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.813 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.906 seconds
+Domain Reload Profiling: 1721ms
+	BeginReloadAssembly (239ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (35ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (96ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (484ms)
+		LoadAssemblies (296ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (247ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (222ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (906ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (656ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (168ms)
+			ProcessInitializeOnLoadAttributes (399ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6571 unused Assets / (6.9 MB). Loaded Objects now: 7515.
+Memory consumption went from 152.1 MB to 145.2 MB.
+Total: 11.946735 ms (FindLiveObjects: 0.814220 ms CreateObjectMapping: 1.277475 ms MarkObjects: 6.128186 ms  DeleteObjects: 3.725828 ms)
+
+Prepare: number of updated asset objects reloaded= 0
