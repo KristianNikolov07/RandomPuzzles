@@ -13,7 +13,7 @@ public class Roomgen : MonoBehaviour
     {
         GameObject room = Instantiate(firstRoom, new Vector3(0, 0, 0), Quaternion.identity);
         
-        for(int i = 0; i < 10; i++)
+        for(int i = 0; i < 50; i++)
         {
             GameObject nextRoom = room.GetComponent<Room>().nextRoom();
             Vector3 nextRoomSpawn = room.GetComponent<Room>().nextRoomSpawn.transform.position;

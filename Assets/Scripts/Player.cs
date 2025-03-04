@@ -14,5 +14,6 @@ public class Player : MonoBehaviour
     void Update()
     {
         rb.linearVelocity = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")) * speed;
+        
     }
 }
