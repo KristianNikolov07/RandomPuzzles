@@ -7,7 +7,7 @@ public class TilesPuzzle : MonoBehaviour
     public GameObject tile;
     public GameObject[] tiles;
     public int firstTileIndex;
-    private List<int> pattern = new List<int>();  // Use List<int> for dynamic growth
+    private List<int> pattern = new List<int>(); 
 
     void Start()
     {
@@ -16,23 +16,37 @@ public class TilesPuzzle : MonoBehaviour
 
     void GeneratePattern(int size)
     {
-        pattern.Clear(); // Ensure pattern is empty before generating
+        pattern.Clear(); 
         pattern.Add(firstTileIndex);
         int currentIndex = firstTileIndex;
 
         for (int i = 0; i < size - 1; i++)
         {
-            int rand = Random.Range(1, 5);
-
-            switch (rand)
+            while (true)
             {
-                case 1: currentIndex--; break;
-                case 2: currentIndex++; break;
-                case 3: currentIndex -= 3; break;
-                case 4: currentIndex += 3; break;
-            }
+                int rand = Random.Range(1, 5);
 
-            currentIndex = (currentIndex + 9) % 9;
+                if (rand == 1 && currentIndex % 3 != 0) 
+                {
+                    currentIndex--;
+                    break;
+                }
+                else if (rand == 2 && currentIndex % 3 != 2)
+                {
+                    currentIndex++;
+                    break;
+                }
+                else if (rand == 3 && currentIndex >= 3) 
+                {
+                    currentIndex -= 3;
+                    break;
+                }
+                else if (rand == 4 && currentIndex <= 5)
+                {
+                    currentIndex += 3;
+                    break;
+                }
+            }
 
             pattern.Add(currentIndex);
         }
