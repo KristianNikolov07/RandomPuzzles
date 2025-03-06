@@ -1,16 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class TilesPuzzle : MonoBehaviour
 {
     public GameObject tile;
     public GameObject[] tiles;
+    public UnityEvent solved;
     public int firstTileIndex;
     private List<int> pattern = new List<int>(); 
 
     void Start()
     {
+        for(int i = 0; i < tiles.Length; i++){
+            tiles[i].GetComponent<Tile>().id = i;
+        }
         GeneratePattern(5);
     }
 
@@ -54,6 +59,10 @@ public class TilesPuzzle : MonoBehaviour
 
     public void ShowPattern()
     {
+        StopAllCoroutines();
+        for(int i = 0; i < tiles.Length; i++){
+            tiles[i].GetComponent<Tile>().changeToDefault();
+        }
         StartCoroutine(ShowPatternCoroutine());
     }
 
@@ -65,5 +74,25 @@ public class TilesPuzzle : MonoBehaviour
             yield return new WaitForSeconds(0.5f);
             tiles[index].GetComponent<Tile>().changeToDefault();
         }
+    }
+
+    int currentTile = 0;
+    public void tileActivated(int id){
+        
+        if(id == pattern[currentTile]){
+            tiles[id].GetComponent<Tile>().changeToGreen();
+            currentTile++;
+        }
+        else{
+            for(int i = 0; i < tiles.Length; i++){
+                tiles[i].GetComponent<Tile>().changeToDefault();
+            }
+            currentTile = 0;
+        }
+
+        if(currentTile >= 5){
+            solved.Invoke();
+        }
+
     }
 }
