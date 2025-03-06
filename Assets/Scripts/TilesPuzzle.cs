@@ -1,28 +1,55 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class TilesPuzzle : MonoBehaviour
 {
-
-    GameObject[] tiles;
     public GameObject tile;
+    public GameObject[] tiles;
+    public int firstTileIndex;
+    private List<int> pattern = new List<int>();  // Use List<int> for dynamic growth
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        GeneratePuzzle(5);
+        GeneratePattern(5);
     }
 
-    // Update is called once per frame
-    void Update()
+    void GeneratePattern(int size)
     {
-        
+        pattern.Clear(); // Ensure pattern is empty before generating
+        pattern.Add(firstTileIndex);
+        int currentIndex = firstTileIndex;
+
+        for (int i = 0; i < size - 1; i++)
+        {
+            int rand = Random.Range(1, 5);
+
+            switch (rand)
+            {
+                case 1: currentIndex--; break;
+                case 2: currentIndex++; break;
+                case 3: currentIndex -= 3; break;
+                case 4: currentIndex += 3; break;
+            }
+
+            currentIndex = (currentIndex + 9) % 9;
+
+            pattern.Add(currentIndex);
+        }
     }
 
-    void GeneratePuzzle(int size){
-        for(int i = 0; i < size; i++){
-            for(int j = 0; j < size; j++){
-                Instantiate(tile, new Vector3(transform.position.x + i, transform.position.y - j, 0), Quaternion.identity);
-            }
+    public void ShowPattern()
+    {
+        StartCoroutine(ShowPatternCoroutine());
+    }
+
+    private IEnumerator ShowPatternCoroutine()
+    {
+        foreach (int index in pattern)
+        {
+            tiles[index].GetComponent<Tile>().changeToGreen();
+            yield return new WaitForSeconds(0.5f);
+            tiles[index].GetComponent<Tile>().changeToDefault();
         }
     }
 }

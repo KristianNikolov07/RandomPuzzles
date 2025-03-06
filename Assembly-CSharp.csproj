@@ -65,11 +65,12 @@
     <Analyzer Include="/home/kn/Unity/Hub/Editor/6000.0.40f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Scripts/Tile.cs" />
+    <Compile Include="Assets/Scripts/Lever.cs" />
     <Compile Include="Assets/Scripts/TilesPuzzle.cs" />
     <Compile Include="Assets/Scripts/Player.cs" />
     <Compile Include="Assets/Scripts/Roomgen.cs" />
     <Compile Include="Assets/Scripts/Room.cs" />
-    <Compile Include="Assets/Scripts/Plate.cs" />
     <Compile Include="Assets/Scripts/Door.cs" />
   </ItemGroup>
   <ItemGroup>
