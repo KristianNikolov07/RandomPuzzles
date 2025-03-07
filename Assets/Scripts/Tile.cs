@@ -27,6 +27,7 @@ public class Tile : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col){
         GetComponentInParent<TilesPuzzle>().tileActivated(id);
+        changeToGreen();
     }
 
         void OnTriggerExit2D(Collider2D col){

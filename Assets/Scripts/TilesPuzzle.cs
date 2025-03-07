@@ -5,6 +5,7 @@ using UnityEngine.Events;
 
 public class TilesPuzzle : MonoBehaviour
 {
+    public int patternLength = 5;
     public GameObject tile;
     public GameObject[] tiles;
     public UnityEvent solved;
@@ -16,7 +17,7 @@ public class TilesPuzzle : MonoBehaviour
         for(int i = 0; i < tiles.Length; i++){
             tiles[i].GetComponent<Tile>().id = i;
         }
-        GeneratePattern(5);
+        GeneratePattern(patternLength);
     }
 
     void GeneratePattern(int size)
@@ -59,10 +60,7 @@ public class TilesPuzzle : MonoBehaviour
 
     public void ShowPattern()
     {
-        StopAllCoroutines();
-        for(int i = 0; i < tiles.Length; i++){
-            tiles[i].GetComponent<Tile>().changeToDefault();
-        }
+        stopShowingPattern();
         StartCoroutine(ShowPatternCoroutine());
     }
 
@@ -76,21 +74,29 @@ public class TilesPuzzle : MonoBehaviour
         }
     }
 
+    public void stopShowingPattern(){
+        StopAllCoroutines();
+        for(int i = 0; i < tiles.Length; i++){
+            tiles[i].GetComponent<Tile>().changeToDefault();
+        }
+    }
+
     int currentTile = 0;
     public void tileActivated(int id){
-        
-        if(id == pattern[currentTile]){
-            tiles[id].GetComponent<Tile>().changeToGreen();
-            currentTile++;
-        }
-        else{
-            for(int i = 0; i < tiles.Length; i++){
-                tiles[i].GetComponent<Tile>().changeToDefault();
-            }
-            currentTile = 0;
-        }
+        stopShowingPattern();
 
-        if(currentTile >= 5){
+        if (currentTile < patternLength){
+            if(id == pattern[currentTile]){
+                currentTile++;
+            }
+            else
+            {
+                currentTile = 0;
+            }
+        }
+        
+
+        if(currentTile >= patternLength){
             solved.Invoke();
         }
 
