@@ -7,7 +7,6 @@ public class Roomgen : MonoBehaviour
     GameObject firstRoom;
 
     [SerializeField]
-    GameObject[] rooms;
 
     void Start()
     {

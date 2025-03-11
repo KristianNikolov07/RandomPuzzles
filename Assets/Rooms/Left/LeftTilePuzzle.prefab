@@ -65,6 +65,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   matchingRooms:
   - {fileID: 943086853720027008, guid: 098741f794037f2faa1cf007a6c2d6ac, type: 3}
+  - {fileID: 943086853720027008, guid: de2e24fff3fcea2d99003c25fdcd7d46, type: 3}
   nextRoomSpawn: {fileID: 7468932641647704124}
 --- !u!1 &3759741165094228581
 GameObject:
