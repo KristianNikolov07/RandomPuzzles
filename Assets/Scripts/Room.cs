@@ -7,6 +7,16 @@ public class Room : MonoBehaviour
     private GameObject[] matchingRooms;
     public GameObject nextRoomSpawn;
 
+    public enum Connection{
+        LEFT,
+        RIGHT,
+        UP,
+        DOWN
+    }
+
+    public Connection entranceOpposite;
+    public Connection exit;
+
     void Start()
     {
         

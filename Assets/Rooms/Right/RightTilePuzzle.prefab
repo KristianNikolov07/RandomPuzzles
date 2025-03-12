@@ -66,6 +66,8 @@ MonoBehaviour:
   matchingRooms:
   - {fileID: 943086853720027008, guid: 922ff77d9f59778449c502473beeb177, type: 3}
   nextRoomSpawn: {fileID: 9067469400032896711}
+  entranceOpposite: 2
+  exit: 1
 --- !u!1 &3759741165094228581
 GameObject:
   m_ObjectHideFlags: 0

@@ -66,6 +66,8 @@ MonoBehaviour:
   - {fileID: 943086853720027008, guid: 098741f794037f2faa1cf007a6c2d6ac, type: 3}
   - {fileID: 943086853720027008}
   nextRoomSpawn: {fileID: 7468932641647704124}
+  entranceOpposite: 2
+  exit: 0
 --- !u!1 &3759741165094228581
 GameObject:
   m_ObjectHideFlags: 0
