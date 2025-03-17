@@ -37,14 +37,6 @@ public class MatchPuzzle : MonoBehaviour
         tiles[5].transform.localPosition = new Vector3(1, -1, -1);
         tiles[6].transform.localPosition = new Vector3(2, -1, -1);
         tiles[7].transform.localPosition = new Vector3(3, -1, -1);
-        tiles[8].transform.localPosition = new Vector3(0, -2, -1);
-        tiles[9].transform.localPosition = new Vector3(1, -2, -1);
-        tiles[10].transform.localPosition = new Vector3(2, -2, -1);
-        tiles[11].transform.localPosition = new Vector3(3, -2, -1);
-        tiles[12].transform.localPosition = new Vector3(0, -3, -1);
-        tiles[13].transform.localPosition = new Vector3(1, -3, -1);
-        tiles[14].transform.localPosition = new Vector3(2, -3, -1);
-        tiles[15].transform.localPosition = new Vector3(3, -3, -1);
 
 
     }
@@ -60,7 +52,7 @@ public class MatchPuzzle : MonoBehaviour
         }
         previousTileActivateSprite = activateSprite;
         clickedTiles++;
-        if(clickedTiles == 16){
+        if(clickedTiles == 8){
             solved.Invoke();
         }
 

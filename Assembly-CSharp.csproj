@@ -67,12 +67,16 @@
   <ItemGroup>
     <Compile Include="Assets/Scripts/MatchPuzzle.cs" />
     <Compile Include="Assets/Scripts/Tile.cs" />
+    <Compile Include="Assets/Scripts/MemoryPuzzleTile.cs" />
     <Compile Include="Assets/Scripts/Lever.cs" />
+    <Compile Include="Assets/Scripts/Lamp.cs" />
     <Compile Include="Assets/Scripts/TilesPuzzle.cs" />
     <Compile Include="Assets/Scripts/Player.cs" />
     <Compile Include="Assets/Scripts/Roomgen.cs" />
     <Compile Include="Assets/Scripts/Room.cs" />
+    <Compile Include="Assets/Scripts/MemoryPuzzle.cs" />
     <Compile Include="Assets/Scripts/MatchPuzzleTile.cs" />
+    <Compile Include="Assets/Scripts/LeverPuzzle.cs" />
     <Compile Include="Assets/Scripts/Door.cs" />
   </ItemGroup>
   <ItemGroup>
