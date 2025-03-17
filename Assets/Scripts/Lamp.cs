@@ -7,7 +7,7 @@ public class Lamp : MonoBehaviour
     public Sprite defaultSprite;
     public Sprite activateSprite;
     SpriteRenderer spriteRenderer;
-    bool isOn = false;
+    public bool isOn = false;
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();

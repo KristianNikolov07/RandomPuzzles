@@ -1,11 +1,16 @@
 using UnityEngine;
 using System.Collections;
 using System.Linq;
+using UnityEngine.Events;
 public class LeverPuzzle : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public GameObject[] lamps;
     public GameObject[] levers;
+
+    public UnityEvent solved;
+    public UnityEvent unsolved;
+
     void Start()
     {
         for(int i = 0; i < 5; i++){
@@ -32,7 +37,7 @@ public class LeverPuzzle : MonoBehaviour
         }
 
         lamps[i].GetComponent<Lamp>().turnOn();
-
+        levers[i].GetComponent<Lever>().clicked.AddListener(check);
     }
 
     for(int i = 0; i < 15; i++){
@@ -40,6 +45,17 @@ public class LeverPuzzle : MonoBehaviour
         levers[rand].GetComponent<Lever>().clicked.Invoke();
     }
 }
+
+    public void check(){
+        foreach (var lamp in lamps)
+        {
+            if(lamp.GetComponent<Lamp>().isOn == false){
+                unsolved.Invoke();
+                return;
+            }
+        }
+        solved.Invoke();
+    }
 
     // Update is called once per frame
     void Update()
