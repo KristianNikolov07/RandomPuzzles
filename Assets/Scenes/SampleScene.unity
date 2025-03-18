@@ -466,10 +466,8 @@ MonoBehaviour:
   rooms:
   - {fileID: 943086853720027008, guid: 098741f794037f2faa1cf007a6c2d6ac, type: 3}
   - {fileID: 943086853720027008, guid: 922ff77d9f59778449c502473beeb177, type: 3}
-  - {fileID: 943086853720027008, guid: cbbb632feba649292a487f033f2281cb, type: 3}
   - {fileID: 943086853720027008, guid: 04329ce80de2a062485d9bf0c26788de, type: 3}
   - {fileID: 943086853720027008, guid: f21349f76f7089af4aa0b20b718fb377, type: 3}
-  - {fileID: 943086853720027008, guid: de2e24fff3fcea2d99003c25fdcd7d46, type: 3}
   - {fileID: 943086853720027008, guid: a5e4eea525dbf6e50afda912601a5bb2, type: 3}
   - {fileID: 943086853720027008, guid: 1feb681822bf6a6778133f65a0e24a05, type: 3}
   - {fileID: 943086853720027008, guid: 928ff4c02684e3ddf8f4fe9795d3cba9, type: 3}

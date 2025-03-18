@@ -8,7 +8,7 @@ public class Lamp : MonoBehaviour
     public Sprite activateSprite;
     SpriteRenderer spriteRenderer;
     public bool isOn = false;
-    void Start()
+    void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
@@ -21,6 +21,7 @@ public class Lamp : MonoBehaviour
 
     public void turnOn(){
         isOn = true;
+        Debug.Log(spriteRenderer);
         spriteRenderer.sprite = activateSprite;
     }
 
