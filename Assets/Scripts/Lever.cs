@@ -9,7 +9,16 @@ public class Lever : MonoBehaviour
     public UnityEvent toggled_on;
     public UnityEvent toggled_off;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    
+    void OnMouseDown(){
+        clicked.Invoke();
+        switched_on = !switched_on;
+        if (switched_on){
+            toggled_on.Invoke();
+        }
+        else{
+            toggled_off.Invoke();
+        }
+    }
 
     // Update is called once per frame
     void Update()

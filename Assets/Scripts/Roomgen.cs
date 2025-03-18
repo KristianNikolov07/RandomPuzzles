@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class Roomgen : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     [SerializeField]
     GameObject firstRoom;
 
@@ -13,7 +12,7 @@ public class Roomgen : MonoBehaviour
     {
         GameObject room = Instantiate(firstRoom, Vector3.zero, Quaternion.identity);
 
-        for (int i = 0; i < 10; i++)
+        for (int i = 0; i < 20; i++)
         {
             int attempts = 0;
             int rand;
