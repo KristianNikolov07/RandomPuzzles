@@ -74,6 +74,7 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_ExampleScript_01.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeB.cs" />
+    <Compile Include="Assets/Scripts/LightsOutLight.cs" />
     <Compile Include="Assets/Scripts/MemoryPuzzleTile.cs" />
     <Compile Include="Assets/Scripts/Lever.cs" />
     <Compile Include="Assets/Scripts/Lamp.cs" />
@@ -104,6 +105,7 @@
     <Compile Include="Assets/Scripts/MemoryPuzzle.cs" />
     <Compile Include="Assets/Scripts/MatchPuzzleTile.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" />
+    <Compile Include="Assets/Scripts/LightsOut.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/DropdownSample.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexColorCycler.cs" />
     <Compile Include="Assets/Scripts/LeverPuzzle.cs" />
