@@ -9,7 +9,7 @@ public class LightsOutLight : MonoBehaviour
     public Sprite offSprite;
     public Sprite onSprite;
     SpriteRenderer spriteRenderer;
-    void Start()
+    void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
     }

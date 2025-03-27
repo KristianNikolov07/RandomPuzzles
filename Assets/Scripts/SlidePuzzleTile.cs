@@ -15,6 +15,6 @@ public class SlidePuzzleTile : MonoBehaviour
     }
 
     public void OnMouseDown(){
-        GameObject.Find("SlidePuzzle").GetComponent<SlidePuzzle>().tileClicked(arrPos);
+        GetComponentInParent<SlidePuzzle>().tileClicked(arrPos);
     }
 }

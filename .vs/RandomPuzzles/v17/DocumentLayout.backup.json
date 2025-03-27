@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\UnityGames\\RandomPuzzles\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7ABE71CF-5168-975B-C164-7B71FDEC7D0D}|Assembly-CSharp.csproj|c:\\unitygames\\randompuzzles\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ABE71CF-5168-975B-C164-7B71FDEC7D0D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ABE71CF-5168-975B-C164-7B71FDEC7D0D}|Assembly-CSharp.csproj|c:\\unitygames\\randompuzzles\\assets\\scripts\\roomgen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ABE71CF-5168-975B-C164-7B71FDEC7D0D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\roomgen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ABE71CF-5168-975B-C164-7B71FDEC7D0D}|Assembly-CSharp.csproj|c:\\unitygames\\randompuzzles\\assets\\scripts\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ABE71CF-5168-975B-C164-7B71FDEC7D0D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\UnityGames\\RandomPuzzles\\Assets\\Scripts\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
+              "ToolTip": "C:\\UnityGames\\RandomPuzzles\\Assets\\Scripts\\Player.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T14:22:50.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Roomgen.cs",
+              "DocumentMoniker": "C:\\UnityGames\\RandomPuzzles\\Assets\\Scripts\\Roomgen.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Roomgen.cs",
+              "ToolTip": "C:\\UnityGames\\RandomPuzzles\\Assets\\Scripts\\Roomgen.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Roomgen.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBQAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T14:15:40.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Room.cs",
+              "DocumentMoniker": "C:\\UnityGames\\RandomPuzzles\\Assets\\Scripts\\Room.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Room.cs",
+              "ToolTip": "C:\\UnityGames\\RandomPuzzles\\Assets\\Scripts\\Room.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Room.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T14:13:29.775Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
