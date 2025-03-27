@@ -3,15 +3,31 @@
   "WorkspaceRootPath": "C:\\UnityGames\\RandomPuzzles\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7ABE71CF-5168-975B-C164-7B71FDEC7D0D}|Assembly-CSharp.csproj|c:\\unitygames\\randompuzzles\\assets\\scripts\\slidepuzzletile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ABE71CF-5168-975B-C164-7B71FDEC7D0D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\slidepuzzletile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ABE71CF-5168-975B-C164-7B71FDEC7D0D}|Assembly-CSharp.csproj|c:\\unitygames\\randompuzzles\\assets\\scripts\\slidepuzzle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ABE71CF-5168-975B-C164-7B71FDEC7D0D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\slidepuzzle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ABE71CF-5168-975B-C164-7B71FDEC7D0D}|Assembly-CSharp.csproj|c:\\unitygames\\randompuzzles\\assets\\scripts\\lightsoutlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ABE71CF-5168-975B-C164-7B71FDEC7D0D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lightsoutlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ABE71CF-5168-975B-C164-7B71FDEC7D0D}|Assembly-CSharp.csproj|c:\\unitygames\\randompuzzles\\assets\\scripts\\lightsout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ABE71CF-5168-975B-C164-7B71FDEC7D0D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lightsout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7ABE71CF-5168-975B-C164-7B71FDEC7D0D}|Assembly-CSharp.csproj|c:\\unitygames\\randompuzzles\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7ABE71CF-5168-975B-C164-7B71FDEC7D0D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7ABE71CF-5168-975B-C164-7B71FDEC7D0D}|Assembly-CSharp.csproj|c:\\unitygames\\randompuzzles\\assets\\scripts\\roomgen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7ABE71CF-5168-975B-C164-7B71FDEC7D0D}|Assembly-CSharp.csproj|C:\\UnityGames\\RandomPuzzles\\assets\\scripts\\roomgen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7ABE71CF-5168-975B-C164-7B71FDEC7D0D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\roomgen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7ABE71CF-5168-975B-C164-7B71FDEC7D0D}|Assembly-CSharp.csproj|c:\\unitygames\\randompuzzles\\assets\\scripts\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7ABE71CF-5168-975B-C164-7B71FDEC7D0D}|Assembly-CSharp.csproj|C:\\UnityGames\\RandomPuzzles\\assets\\scripts\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7ABE71CF-5168-975B-C164-7B71FDEC7D0D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -27,6 +43,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SlidePuzzleTile.cs",
+              "DocumentMoniker": "C:\\UnityGames\\RandomPuzzles\\Assets\\Scripts\\SlidePuzzleTile.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SlidePuzzleTile.cs",
+              "ToolTip": "C:\\UnityGames\\RandomPuzzles\\Assets\\Scripts\\SlidePuzzleTile.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SlidePuzzleTile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T17:06:35.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SlidePuzzle.cs",
+              "DocumentMoniker": "C:\\UnityGames\\RandomPuzzles\\Assets\\Scripts\\SlidePuzzle.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SlidePuzzle.cs",
+              "ToolTip": "C:\\UnityGames\\RandomPuzzles\\Assets\\Scripts\\SlidePuzzle.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SlidePuzzle.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T17:06:10.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LightsOutLight.cs",
+              "DocumentMoniker": "C:\\UnityGames\\RandomPuzzles\\Assets\\Scripts\\LightsOutLight.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LightsOutLight.cs",
+              "ToolTip": "C:\\UnityGames\\RandomPuzzles\\Assets\\Scripts\\LightsOutLight.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LightsOutLight.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T16:54:00.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LightsOut.cs",
+              "DocumentMoniker": "C:\\UnityGames\\RandomPuzzles\\Assets\\Scripts\\LightsOut.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LightsOut.cs",
+              "ToolTip": "C:\\UnityGames\\RandomPuzzles\\Assets\\Scripts\\LightsOut.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LightsOut.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T16:52:01.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\UnityGames\\RandomPuzzles\\Assets\\Scripts\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
@@ -39,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Roomgen.cs",
               "DocumentMoniker": "C:\\UnityGames\\RandomPuzzles\\Assets\\Scripts\\Roomgen.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Roomgen.cs",
@@ -47,12 +115,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Roomgen.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAxwBQAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T14:15:40.507Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-03T14:15:40.507Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Room.cs",
               "DocumentMoniker": "C:\\UnityGames\\RandomPuzzles\\Assets\\Scripts\\Room.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Room.cs",
@@ -60,8 +127,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Room.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T14:13:29.775Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-03T14:13:29.775Z"
             }
           ]
         }
