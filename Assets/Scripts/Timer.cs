@@ -6,6 +6,7 @@ public class Timer : MonoBehaviour
 {
     TextMeshProUGUI meshPro; 
     float time = 0;
+    public float time_rounded;
 
     void Awake()
     {
@@ -17,7 +18,7 @@ public class Timer : MonoBehaviour
     void Update()
     {
         time += Time.deltaTime;
-        float time_rounded = (float)Math.Round(time, 2);
+        time_rounded = (float)Math.Round(time, 2);
 
         int totalSeconds = (int)time_rounded;
         int hours = totalSeconds / 3600;

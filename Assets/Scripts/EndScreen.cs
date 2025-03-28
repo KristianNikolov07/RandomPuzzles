@@ -1,12 +1,13 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class EndScreen : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public GameObject TimerText;
     void Start()
     {
-        
+        TimerText.GetComponent<TextMeshProUGUI>().text = TimerInfo.timeText;
     }
 
     // Update is called once per frame
