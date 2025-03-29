@@ -644,7 +644,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firstRoom: {fileID: 943086853720027008, guid: 95591470bccb3f9478eb44b2018f3bda, type: 3}
-  EndTrigger: {fileID: 5585572153777758609, guid: bbccb411bd52ae339883f0b1ffd74860, type: 3}
+  EndTrigger: {fileID: 943086853720027008, guid: a8332d8e7b66f194a88564ace376c2ba, type: 3}
   rooms:
   - {fileID: 943086853720027008, guid: 098741f794037f2faa1cf007a6c2d6ac, type: 3}
   - {fileID: 943086853720027008, guid: 922ff77d9f59778449c502473beeb177, type: 3}
@@ -815,6 +815,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32a4eca0c5cafcf4dbceb00872bc54ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  time_rounded: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
