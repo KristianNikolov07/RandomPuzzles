@@ -13,9 +13,10 @@ public class Roomgen : MonoBehaviour
 
     void Start()
     {
+        int numRooms = GameSettings.numRooms;
         GameObject room = Instantiate(firstRoom, Vector3.zero, Quaternion.identity);
 
-        for (int i = 0; i < 5; i++)
+        for (int i = 0; i < numRooms; i++)
         {
             int rand;
             GameObject nextRoom = null;
