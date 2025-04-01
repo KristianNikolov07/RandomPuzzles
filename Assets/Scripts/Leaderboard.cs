@@ -1,0 +1,87 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using TMPro;
+using Unity.VisualScripting;
+using UnityEditor.ShaderGraph.Serialization;
+using UnityEngine;
+using UnityEngine.Networking;
+using UnityEngine.Rendering;
+
+[Serializable]
+public class LeaderboardEntry
+    {
+        public string username;
+        public double _time;
+        public int rooms;
+    }
+
+    public class LeaderboardEntries
+    {
+        public List<LeaderboardEntry> entries;
+    }
+public class Leaderboard : MonoBehaviour
+{
+    string url = "localhost:8080";
+    int page = 0;
+
+    public GameObject loadingText;
+    public GameObject entriesPanel;
+    public GameObject entryPrefab;
+
+    public GameObject pageText;
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        StartCoroutine(FetchLeaderboard(0));
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+
+    IEnumerator FetchLeaderboard(int page){
+        entriesPanel.SetActive(false);
+        loadingText.SetActive(true);
+
+        int childCount = entriesPanel.transform.childCount;
+        for (int i = childCount - 1; i >= 0; i--) {
+            Destroy(entriesPanel.transform.GetChild(i).gameObject);
+        }
+
+        pageText.GetComponent<TextMeshProUGUI>().text = "Page " + (page + 1);
+
+        UnityWebRequest www = UnityWebRequest.Get(url + "/get?page=" + page);
+        yield return www.SendWebRequest();
+
+        if (www.result != UnityWebRequest.Result.Success) {
+            Debug.Log(www.error);
+        } else {
+            loadingText.SetActive(false);
+            entriesPanel.SetActive(true);
+            string res = www.downloadHandler.text;
+            
+            LeaderboardEntries json = JsonUtility.FromJson<LeaderboardEntries>(res);
+            int place = page * 6 + 1;
+            foreach (var entry in json.entries)
+            {
+                GameObject entryDisplay = Instantiate(entryPrefab, entriesPanel.transform);
+                entryDisplay.GetComponent<LeaderboardEntryDisplay>().setValues(place, entry.username, ((float)entry._time));
+                place++;
+            }
+        }
+    }
+
+    public void previousPage(){
+        page --;
+        if(page < 0) page = 0;
+        StartCoroutine(FetchLeaderboard(page));
+    }
+
+    public void nextPage(){
+        page++;
+        StartCoroutine(FetchLeaderboard(page));
+    }
+}

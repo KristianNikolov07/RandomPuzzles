@@ -7,6 +7,7 @@ public class Menu : MonoBehaviour
 {
     public GameObject mainMenuPanel;
     public GameObject gameSettingsPanel;
+    public GameObject leaderboardPanel;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -42,6 +43,16 @@ public class Menu : MonoBehaviour
 
     public void Back(){
         gameSettingsPanel.SetActive(false);
+        mainMenuPanel.SetActive(true);
+    }
+
+    public void OpenLeaderboard(){
+        mainMenuPanel.SetActive(false);
+        leaderboardPanel.SetActive(true);
+    }
+
+    public void ExitLeaderboard(){
+        leaderboardPanel.SetActive(false);
         mainMenuPanel.SetActive(true);
     }
 
