@@ -20,10 +20,15 @@ public class LeaderboardEntry
     {
         public List<LeaderboardEntry> entries;
     }
+
+
 public class Leaderboard : MonoBehaviour
 {
+
     string url = "localhost:8080";
     int page = 0;
+
+    int rooms = 10;
 
     public GameObject loadingText;
     public GameObject entriesPanel;
@@ -53,7 +58,7 @@ public class Leaderboard : MonoBehaviour
 
         pageText.GetComponent<TextMeshProUGUI>().text = "Page " + (page + 1);
 
-        UnityWebRequest www = UnityWebRequest.Get(url + "/get?page=" + page);
+        UnityWebRequest www = UnityWebRequest.Get(url + "/get?page=" + page + "&rooms=" + rooms);
         yield return www.SendWebRequest();
 
         if (www.result != UnityWebRequest.Result.Success) {
@@ -82,6 +87,22 @@ public class Leaderboard : MonoBehaviour
 
     public void nextPage(){
         page++;
+        StartCoroutine(FetchLeaderboard(page));
+    }
+
+
+    public void SetRooms10(){
+        rooms = 10;
+        StartCoroutine(FetchLeaderboard(page));
+    }
+
+    public void SetRooms20(){
+        rooms = 20;
+        StartCoroutine(FetchLeaderboard(page));
+    }
+
+    public void SetRooms50(){
+        rooms = 50;
         StartCoroutine(FetchLeaderboard(page));
     }
 }
