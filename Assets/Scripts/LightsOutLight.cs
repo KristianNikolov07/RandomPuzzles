@@ -3,7 +3,6 @@ using UnityEngine.UI;
 
 public class LightsOutLight : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     public int index;
     public bool isOn = false;
     public Sprite offSprite;
@@ -12,12 +11,6 @@ public class LightsOutLight : MonoBehaviour
     void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     public void OnMouseDown(){

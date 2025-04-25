@@ -9,18 +9,6 @@ public class LeaderboardEntryDisplay : MonoBehaviour
     public GameObject usernameText;
     public GameObject timeText;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void setValues(int place, string username, float time){
         if(place == 1){
             placeText.GetComponent<TextMeshProUGUI>().text = "1ST";

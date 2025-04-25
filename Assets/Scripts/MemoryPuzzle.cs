@@ -10,12 +10,6 @@ public class MemoryPuzzle : MonoBehaviour
         StartCoroutine(swap());
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     void SelectCorrect(){
         int rand = Random.Range(0, tiles.Length);
         tiles[rand].GetComponent<MemoryPuzzleTile>().isCorrect = true;

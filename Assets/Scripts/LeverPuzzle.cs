@@ -4,7 +4,6 @@ using System.Linq;
 using UnityEngine.Events;
 public class LeverPuzzle : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     public GameObject[] lamps;
     public GameObject[] levers;
 
@@ -48,11 +47,5 @@ public class LeverPuzzle : MonoBehaviour
             }
         }
         solved.Invoke();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

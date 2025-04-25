@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class Lamp : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
 
     public Sprite defaultSprite;
     public Sprite activateSprite;
@@ -12,13 +11,6 @@ public class Lamp : MonoBehaviour
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void turnOn(){
         isOn = true;
         Debug.Log(spriteRenderer);

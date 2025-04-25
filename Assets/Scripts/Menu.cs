@@ -8,18 +8,6 @@ public class Menu : MonoBehaviour
     public GameObject mainMenuPanel;
     public GameObject gameSettingsPanel;
     public GameObject leaderboardPanel;
-    
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     public void Play(){
         mainMenuPanel.SetActive(false);
@@ -54,10 +42,6 @@ public class Menu : MonoBehaviour
     public void ExitLeaderboard(){
         leaderboardPanel.SetActive(false);
         mainMenuPanel.SetActive(true);
-    }
-
-    public void Leaderboard(){
-
     }
 
     public void Quit(){

@@ -27,12 +27,6 @@ public class SlidePuzzle : MonoBehaviour
         scramble();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void tileClicked(int pos){
         //left
         if(pos != 0 && pos != 4 && pos != 8 && pos != 12){

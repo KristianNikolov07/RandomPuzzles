@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class Door : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     BoxCollider2D col;
     SpriteRenderer sprite;
     void Start()
@@ -20,15 +19,5 @@ public class Door : MonoBehaviour
     public void close(){
         col.enabled = true;
         sprite.enabled = true;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        /*
-        if(Input.GetKeyDown(KeyCode.Space)){
-            open();
-        }
-        */
     }
 }

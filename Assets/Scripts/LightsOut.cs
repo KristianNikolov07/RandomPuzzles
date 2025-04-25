@@ -7,8 +7,6 @@ public class LightsOut : MonoBehaviour
     public UnityEvent solved;
     public UnityEvent unsolved;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-
     void Awake(){
         for(int i = 0; i < lights.Length; i++){
             lights[i].GetComponent<LightsOutLight>().index = i;
@@ -18,12 +16,6 @@ public class LightsOut : MonoBehaviour
     void Start()
     {
         Scrabmle();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     public void LightClicked(int index){

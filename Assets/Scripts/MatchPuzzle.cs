@@ -4,19 +4,12 @@ using UnityEngine.Events;
 
 public class MatchPuzzle : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     public GameObject[] tiles; 
     public UnityEvent solved;
     public Sprite defaultSprite;
     void Start()
     {
         reshuffle();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     void reshuffle()

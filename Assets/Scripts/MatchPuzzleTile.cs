@@ -10,12 +10,6 @@ public class MatchPuzzleTile : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     void OnMouseDown(){
         if(activated == false){
             spriteRenderer.sprite = activatedSprite;

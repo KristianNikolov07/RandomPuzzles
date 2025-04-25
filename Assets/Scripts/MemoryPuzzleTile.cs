@@ -5,14 +5,8 @@ public class MemoryPuzzleTile : MonoBehaviour
 {
     public float moveSpeed = 2f;
     public bool isMoving = false;
-
     public bool isCorrect = false;
-
-    void Update()
-    {
-        
-    }
-
+    
     IEnumerator MoveLeftCoroutine()
     {
         isMoving = true;

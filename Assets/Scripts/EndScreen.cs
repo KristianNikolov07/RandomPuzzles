@@ -17,12 +17,6 @@ public class EndScreen : MonoBehaviour
         TimerText.GetComponent<TextMeshProUGUI>().text = TimerInfo.timeText;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void UploadScore() {
         string username = nameInput.GetComponent<TextMeshProUGUI>().text;
         float time = TimerInfo.time;
