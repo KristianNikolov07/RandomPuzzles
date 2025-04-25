@@ -6,6 +6,15 @@ public class Roomgen : MonoBehaviour
     GameObject firstRoom;
 
     [SerializeField]
+    GameObject FinalLeft;
+
+    [SerializeField]
+    GameObject FinalUp;
+
+    [SerializeField]
+    GameObject FinalRight;
+
+    [SerializeField]
     GameObject EndTrigger;
 
     [SerializeField]
@@ -25,8 +34,6 @@ public class Roomgen : MonoBehaviour
             {
                 rand = Random.Range(0, rooms.Length);
                 nextRoom = rooms[rand];
-                Debug.Log("Entrance " + nextRoom.GetComponent<Room>().entranceOpposite);
-                Debug.Log("Exit " + room.GetComponent<Room>().exit);
             }
             while (nextRoom.GetComponent<Room>().entranceOpposite != room.GetComponent<Room>().exit);
 
@@ -35,7 +42,16 @@ public class Roomgen : MonoBehaviour
         }
 
         Vector3 endTriggerSpawn = room.GetComponent<Room>().nextRoomSpawn.transform.position;
-        Instantiate(EndTrigger, endTriggerSpawn, Quaternion.identity);
+        if(room.GetComponent<Room>().exit == Room.Connection.LEFT){
+            Instantiate(FinalLeft, endTriggerSpawn, Quaternion.identity);
+        }
+        if(room.GetComponent<Room>().exit == Room.Connection.UP){
+            Instantiate(FinalUp, endTriggerSpawn, Quaternion.identity);
+        }
+        if(room.GetComponent<Room>().exit == Room.Connection.RIGHT){
+            Instantiate(FinalRight, endTriggerSpawn, Quaternion.identity);
+        }
+        
     }
 
     // Update is called once per frame

@@ -644,6 +644,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firstRoom: {fileID: 943086853720027008, guid: 95591470bccb3f9478eb44b2018f3bda, type: 3}
+  FinalLeft: {fileID: 943086853720027008, guid: 11d3ec4742241bcc08689f63f63fd56e, type: 3}
+  FinalUp: {fileID: 943086853720027008, guid: b0184be0669f5d49aaebb17a7491d08c, type: 3}
+  FinalRight: {fileID: 943086853720027008, guid: 8173c31d2e48e114a93f932607754586, type: 3}
   EndTrigger: {fileID: 943086853720027008, guid: a8332d8e7b66f194a88564ace376c2ba, type: 3}
   rooms:
   - {fileID: 943086853720027008, guid: 098741f794037f2faa1cf007a6c2d6ac, type: 3}
