@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 
 public class EndScreen : MonoBehaviour
 {
-    string url = "localhost:8080";
+    string url = "http://20.240.218.232";
     public GameObject nameInput;
     public GameObject TimerText;
     public GameObject errorText;

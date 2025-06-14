@@ -25,7 +25,7 @@ public class LeaderboardEntry
 public class Leaderboard : MonoBehaviour
 {
 
-    string url = "localhost:8080";
+    string url = "http://20.240.218.232";
     int page = 0;
 
     int rooms = 10;
