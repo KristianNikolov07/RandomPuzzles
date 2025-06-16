@@ -38,7 +38,6 @@ public class LeverPuzzle : MonoBehaviour
     }
 
     public void check(){
-        Debug.Log("AAA");
         foreach (var lamp in lamps)
         {
             if(lamp.GetComponent<Lamp>().isOn == false){
