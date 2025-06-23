@@ -1,6 +1,5 @@
 using System;
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class LeaderboardEntryDisplay : MonoBehaviour
@@ -9,17 +8,22 @@ public class LeaderboardEntryDisplay : MonoBehaviour
     public GameObject usernameText;
     public GameObject timeText;
 
-    public void setValues(int place, string username, float time){
-        if(place == 1){
+    public void setValues(int place, string username, float time)
+    {
+        if (place == 1)
+        {
             placeText.GetComponent<TextMeshProUGUI>().text = "1ST";
         }
-        else if(place == 2){
+        else if (place == 2)
+        {
             placeText.GetComponent<TextMeshProUGUI>().text = "2ND";
         }
-        else if(place == 3){
+        else if (place == 3)
+        {
             placeText.GetComponent<TextMeshProUGUI>().text = "3RD";
         }
-        else{
+        else
+        {
             placeText.GetComponent<TextMeshProUGUI>().text = place + "TH";
         }
 
@@ -34,12 +38,9 @@ public class LeaderboardEntryDisplay : MonoBehaviour
         int mins = remainingSeconds / 60;
         int secs = remainingSeconds % 60;
 
-
         float fractionalPart = time_rounded - totalSeconds;
-        int cents = Mathf.RoundToInt(fractionalPart * 100); 
+        int cents = Mathf.RoundToInt(fractionalPart * 100);
 
         timeText.GetComponent<TextMeshProUGUI>().text = $"{hours:D2}:{mins:D2}:{secs:D2}.{cents:D2}";
-
-        
     }
 }

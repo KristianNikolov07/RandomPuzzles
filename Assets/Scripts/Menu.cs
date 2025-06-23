@@ -1,7 +1,5 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using System.Collections;
-using UnityEngine.Rendering;
 
 public class Menu : MonoBehaviour
 {
@@ -9,42 +7,50 @@ public class Menu : MonoBehaviour
     public GameObject gameSettingsPanel;
     public GameObject leaderboardPanel;
 
-    public void Play(){
+    public void Play()
+    {
         mainMenuPanel.SetActive(false);
         gameSettingsPanel.SetActive(true);
     }
 
-    public void Gen10Rooms(){
+    public void Gen10Rooms()
+    {
         GameSettings.numRooms = 10;
         SceneManager.LoadScene("Main");
     }
 
-    public void Gen20Rooms(){
+    public void Gen20Rooms()
+    {
         GameSettings.numRooms = 20;
         SceneManager.LoadScene("Main");
     }
 
-    public void Gen50Rooms(){
+    public void Gen50Rooms()
+    {
         GameSettings.numRooms = 50;
         SceneManager.LoadScene("Main");
     }
 
-    public void Back(){
+    public void Back()
+    {
         gameSettingsPanel.SetActive(false);
         mainMenuPanel.SetActive(true);
     }
 
-    public void OpenLeaderboard(){
+    public void OpenLeaderboard()
+    {
         mainMenuPanel.SetActive(false);
         leaderboardPanel.SetActive(true);
     }
 
-    public void ExitLeaderboard(){
+    public void ExitLeaderboard()
+    {
         leaderboardPanel.SetActive(false);
         mainMenuPanel.SetActive(true);
     }
 
-    public void Quit(){
+    public void Quit()
+    {
         Application.Quit();
     }
 }

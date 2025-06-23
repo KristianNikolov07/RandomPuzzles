@@ -6,14 +6,15 @@ public class Door : MonoBehaviour
     SpriteRenderer sprite;
     bool wasOpenedBefore = false;
     bool isOpen = false;
+
     void Start()
     {
         col = GetComponent<BoxCollider2D>();
         sprite = GetComponent<SpriteRenderer>();
-
     }
 
-    public void open() {
+    public void open()
+    {
         if (!isOpen)
         {
             col.enabled = false;
@@ -25,16 +26,15 @@ public class Door : MonoBehaviour
             isOpen = true;
             wasOpenedBefore = true;
         }
-        
     }
 
-    public void close(){
+    public void close()
+    {
         if (isOpen)
         {
             col.enabled = true;
             sprite.enabled = true;
             isOpen = false;
         }
-        
     }
 }

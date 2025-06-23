@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.Events;
+
 public class LeverPuzzle : MonoBehaviour
 {
     bool ready = false;
@@ -42,12 +43,13 @@ public class LeverPuzzle : MonoBehaviour
         ready = true;
     }
 
-    public void check(){
+    public void check()
+    {
         if (ready)
         {
             foreach (var lamp in lamps)
             {
-                if (lamp.GetComponent<Lamp>().isOn == false)
+                if (!lamp.GetComponent<Lamp>().isOn)
                 {
                     unsolved.Invoke();
                     return;
@@ -55,6 +57,5 @@ public class LeverPuzzle : MonoBehaviour
             }
             solved.Invoke();
         }
-        
     }
 }

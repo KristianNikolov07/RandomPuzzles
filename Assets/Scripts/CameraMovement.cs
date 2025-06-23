@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class CameraMovement : MonoBehaviour
 {
-    [SerializeField]
-    List<Vector3> positions = new List<Vector3>();
+    [SerializeField] List<Vector3> positions = new List<Vector3>();
     int currentIndex = 0;
     float speed = 10f;
 
@@ -19,7 +18,6 @@ public class CameraMovement : MonoBehaviour
 
     public void MoveToNextPosition()
     {
-        Debug.Log("CameraMoveCalled");
         StartCoroutine(MoveCameraCoroutine());
     }
 
@@ -36,7 +34,6 @@ public class CameraMovement : MonoBehaviour
         transform.position = nextPos;
         currentIndex++;
     }
-
 
     void Start()
     {

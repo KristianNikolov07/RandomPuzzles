@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.ComponentModel;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -34,8 +33,9 @@ public class SimonSays : MonoBehaviour
         foreach (Transform tile in transform)
         {
             tiles.Add(tile.gameObject);
-            tile.gameObject.GetComponent<SimonSaysTile>().onClicked.AddListener(OnTileClicked);
-            tile.gameObject.GetComponent<SimonSaysTile>().id = tiles.Count - 1;
+            var tileScript = tile.gameObject.GetComponent<SimonSaysTile>();
+            tileScript.onClicked.AddListener(OnTileClicked);
+            tileScript.id = tiles.Count - 1;
         }
         GeneratePattern();
     }
@@ -45,11 +45,10 @@ public class SimonSays : MonoBehaviour
         pattern = new List<int>();
         for (int i = 0; i < length; i++)
         {
-            var rand = Random.Range(0, 8);
+            int rand = Random.Range(0, 8);
             pattern.Add(rand);
         }
         Debug.Log(pattern);
-
     }
 
     public IEnumerator ShowPattern()
@@ -64,41 +63,39 @@ public class SimonSays : MonoBehaviour
             tiles[pattern[i]].GetComponent<SpriteRenderer>().sprite = default_tile;
         }
         is_clickable = true;
-
     }
 
     void OnTileClicked(int id)
     {
-        if (is_clickable)
+        if (!is_clickable) return;
+
+        if (id == pattern[current_tile])
         {
-            if (id == pattern[current_tile])
+            tiles[id].GetComponent<SpriteRenderer>().sprite = correct_tile;
+            current_tile++;
+            if (current_tile == current_guess + 1)
             {
-                tiles[id].GetComponent<SpriteRenderer>().sprite = correct_tile;
-                current_tile++;
-                if (current_tile == current_guess + 1)
-                {
-                    current_guess++;
-                    current_tile = 0;
-                    if (current_guess == length)
-                    {
-                        isSolved.Invoke();
-                        Debug.Log("Solved");
-                        is_clickable = false;
-                        return;
-                    }
-                    StartCoroutine(ShowPattern());
-                }
-            }
-            else
-            {
+                current_guess++;
                 current_tile = 0;
-                current_guess = 0;
-                tiles[id].GetComponent<SpriteRenderer>().sprite = wrong_tile;
+                if (current_guess == length)
+                {
+                    isSolved.Invoke();
+                    Debug.Log("Solved");
+                    is_clickable = false;
+                    return;
+                }
                 StartCoroutine(ShowPattern());
             }
-            StartCoroutine(ChangeTileToDefault(id));
         }
-        
+        else
+        {
+            current_tile = 0;
+            current_guess = 0;
+            tiles[id].GetComponent<SpriteRenderer>().sprite = wrong_tile;
+            StartCoroutine(ShowPattern());
+        }
+
+        StartCoroutine(ChangeTileToDefault(id));
     }
 
     IEnumerator ChangeTileToDefault(int id)
@@ -106,6 +103,4 @@ public class SimonSays : MonoBehaviour
         yield return new WaitForSecondsRealtime(0.1f);
         tiles[id].GetComponent<SpriteRenderer>().sprite = default_tile;
     }
-    
-    
 }
