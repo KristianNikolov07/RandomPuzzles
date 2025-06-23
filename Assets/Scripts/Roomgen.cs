@@ -20,15 +20,18 @@ public class Roomgen : MonoBehaviour
     [SerializeField]
     GameObject[] rooms;
 
-    void Start()
+    void Awake()
     {
+        CameraMovement camera = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<CameraMovement>();
+
         int numRooms = GameSettings.numRooms;
         GameObject room = Instantiate(firstRoom, Vector3.zero, Quaternion.identity);
+        camera.AddPositon(room.transform.position);
 
         for (int i = 0; i < numRooms; i++)
         {
             int rand;
-            GameObject nextRoom = null;
+            GameObject nextRoom;
 
             do
             {
@@ -39,19 +42,23 @@ public class Roomgen : MonoBehaviour
 
             Vector3 nextRoomSpawn = room.GetComponent<Room>().nextRoomSpawn.transform.position;
             room = Instantiate(nextRoom, nextRoomSpawn, Quaternion.identity);
+            camera.AddPositon(room.transform.position);
         }
 
         Vector3 endTriggerSpawn = room.GetComponent<Room>().nextRoomSpawn.transform.position;
-        if(room.GetComponent<Room>().exit == Room.Connection.LEFT){
+        if (room.GetComponent<Room>().exit == Room.Connection.LEFT)
+        {
             Instantiate(FinalLeft, endTriggerSpawn, Quaternion.identity);
         }
-        if(room.GetComponent<Room>().exit == Room.Connection.UP){
+        if (room.GetComponent<Room>().exit == Room.Connection.UP)
+        {
             Instantiate(FinalUp, endTriggerSpawn, Quaternion.identity);
         }
-        if(room.GetComponent<Room>().exit == Room.Connection.RIGHT){
+        if (room.GetComponent<Room>().exit == Room.Connection.RIGHT)
+        {
             Instantiate(FinalRight, endTriggerSpawn, Quaternion.identity);
         }
-        
+
     }
 
 }

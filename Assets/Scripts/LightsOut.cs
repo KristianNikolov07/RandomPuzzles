@@ -6,6 +6,7 @@ public class LightsOut : MonoBehaviour
     public GameObject [] lights;
     public UnityEvent solved;
     public UnityEvent unsolved;
+    bool ready = false;
 
     void Awake(){
         for(int i = 0; i < lights.Length; i++){
@@ -39,21 +40,32 @@ public class LightsOut : MonoBehaviour
         Check();
     }
 
-    void Scrabmle(){
-        for(int i = 0; i < 50; i++){
+    void Scrabmle()
+    {
+        for (int i = 0; i < 50; i++)
+        {
             int rand = Random.Range(0, 25);
             LightClicked(rand);
         }
+        ready = true;
     }
 
     void Check(){
-        foreach (var light in lights)
+        if (ready)
         {
-            if(light.GetComponent<LightsOutLight>().isOn){
-                unsolved.Invoke();
-                return;
+            int offLights = 0;
+            foreach (var light in lights)
+            {
+                if (!light.GetComponent<LightsOutLight>().isOn)
+                {
+                    offLights++;
+                }
             }
-            solved.Invoke();
+            if (offLights == 25)
+            {
+                solved.Invoke();
+            }
         }
+        
     }
 }
