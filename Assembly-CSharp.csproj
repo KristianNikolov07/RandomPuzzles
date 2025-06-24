@@ -1374,6 +1374,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="GameJoltRuntime.csproj" />
+    <ProjectReference Include="GameJoltDemos.csproj" />
+    <ProjectReference Include="GameJoltEditor.csproj" />
   </ItemGroup>
   <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
   <ItemGroup>

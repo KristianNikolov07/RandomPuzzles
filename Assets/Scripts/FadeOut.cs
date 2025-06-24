@@ -1,4 +1,5 @@
 using System.Collections;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -18,6 +19,8 @@ public class FadeOut : MonoBehaviour
     {
         yield return new WaitForSecondsRealtime(1f);
         animator.enabled = false;
+        TimerInfo.time = GameObject.Find("Timer").GetComponent<Timer>().time_rounded;
+        TimerInfo.timeText = GameObject.Find("Timer").GetComponent<TextMeshProUGUI>().text;
         SceneManager.LoadScene("EndScene");
     }
 }
