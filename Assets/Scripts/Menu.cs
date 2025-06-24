@@ -40,7 +40,7 @@ public class Menu : MonoBehaviour
 
     public void OpenLeaderboard()
     {
-        Application.OpenURL("https://gamejolt.com/games/randompuzzles/1001724/scores/1014527/best");`
+        Application.OpenURL("https://gamejolt.com/games/randompuzzles/1001724/scores/1014527/best");
 
     }
 
