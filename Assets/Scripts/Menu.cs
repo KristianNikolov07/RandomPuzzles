@@ -1,3 +1,4 @@
+using GameJolt.UI;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -39,8 +40,8 @@ public class Menu : MonoBehaviour
 
     public void OpenLeaderboard()
     {
-        mainMenuPanel.SetActive(false);
-        leaderboardPanel.SetActive(true);
+        Application.OpenURL("https://gamejolt.com/games/randompuzzles/1001724/scores/1014527/best");`
+
     }
 
     public void ExitLeaderboard()
