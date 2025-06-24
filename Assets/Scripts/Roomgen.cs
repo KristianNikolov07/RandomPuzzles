@@ -34,10 +34,21 @@ public class Roomgen : MonoBehaviour
 
         Vector3 endTriggerSpawn = room.GetComponent<Room>().nextRoomSpawn.transform.position;
         if (room.GetComponent<Room>().exit == Room.Connection.LEFT)
-            Instantiate(FinalLeft, endTriggerSpawn, Quaternion.identity);
-        if (room.GetComponent<Room>().exit == Room.Connection.UP)
-            Instantiate(FinalUp, endTriggerSpawn, Quaternion.identity);
-        if (room.GetComponent<Room>().exit == Room.Connection.RIGHT)
-            Instantiate(FinalRight, endTriggerSpawn, Quaternion.identity);
+        {
+            room = Instantiate(FinalLeft, endTriggerSpawn, Quaternion.identity);
+            camera.SetFinalRoomPos(room.transform.position);
+            camera.SetFinalDirection(CameraMovement.FinalDirection.LEFT);
+        }
+        else if (room.GetComponent<Room>().exit == Room.Connection.UP)
+        {
+            room = Instantiate(FinalUp, endTriggerSpawn, Quaternion.identity);
+            camera.SetFinalDirection(CameraMovement.FinalDirection.UP);
+        }
+        else if (room.GetComponent<Room>().exit == Room.Connection.RIGHT)
+        {
+            room = Instantiate(FinalRight, endTriggerSpawn, Quaternion.identity);
+            camera.SetFinalRoomPos(room.transform.position);
+            camera.SetFinalDirection(CameraMovement.FinalDirection.RIGHT);
+        }
     }
 }
