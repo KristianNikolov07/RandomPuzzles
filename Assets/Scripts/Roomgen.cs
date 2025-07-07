@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class Roomgen : MonoBehaviour
@@ -7,10 +9,32 @@ public class Roomgen : MonoBehaviour
     [SerializeField] GameObject FinalUp;
     [SerializeField] GameObject FinalRight;
     [SerializeField] GameObject EndTrigger;
-    [SerializeField] GameObject[] rooms;
+    [SerializeField] List<GameObject> rooms = new List<GameObject>();
+
+    void PopulateRoomsArray()
+    {
+
+        string[] folders = {
+            "Rooms/Left",
+            "Rooms/Right",
+            "Rooms/Up",
+            "Rooms/LeftUp",
+            "Rooms/RightUp"
+        };
+
+        foreach (string folder in folders)
+        {
+            GameObject[] prefabs = Resources.LoadAll<GameObject>(folder);
+            rooms.AddRange(prefabs);
+        }
+
+    }
 
     void Awake()
     {
+        PopulateRoomsArray();
+
+
         CameraMovement camera = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<CameraMovement>();
         int numRooms = GameSettings.numRooms;
         GameObject room = Instantiate(firstRoom, Vector3.zero, Quaternion.identity);
@@ -22,7 +46,7 @@ public class Roomgen : MonoBehaviour
             GameObject nextRoom;
             do
             {
-                rand = Random.Range(0, rooms.Length);
+                rand = Random.Range(0, rooms.Count);
                 nextRoom = rooms[rand];
             }
             while (nextRoom.GetComponent<Room>().entranceOpposite != room.GetComponent<Room>().exit);
